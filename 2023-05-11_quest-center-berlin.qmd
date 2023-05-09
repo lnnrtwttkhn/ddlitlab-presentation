@@ -2,7 +2,7 @@
 title: 'A full-semester course on "Version control of code and data using Git and DataLad"'
 subtitle: |
   Symposium on "Reproducible Research: Education and Teaching Formats Reports</br>From the Reproducibility Networks" at QUEST Center Berlin, Germany
-author: "Dr. Lennart Wittkuhn"
+author: "Talk by Dr. Lennart Wittkuhn"
 date: "2023-05-11"
 from: markdown+emoji
 format:
@@ -56,7 +56,7 @@ execute:
 
 :building_construction: **WIP:** This teaching project is work in progress!
 
-:computer: **Slides:** Slides are publicly available at [lennartwittkuhn.com/talk-rdm](https://lennartwittkuhn.com/ddlitlab-presentation/)
+:computer: **Slides:** Slides are publicly available at [lennartwittkuhn.com/ddlitlab-presentation](https://lennartwittkuhn.com/ddlitlab-presentation/)
 
 :package: **Software:** Reproducible slides built with [Quarto](https://quarto.org/) and deployed to [GitHub Pages](https://pages.github.com/) using [GitHub Actions](https://github.com/features/actions)
 
@@ -73,24 +73,20 @@ execute:
 :::: {.columns}
 
 ::: {.column width="42%"}
-
 ::: {.fragment}
-... for **code** (text files) {{< fa code >}}
+... for **code** (text files)
 ![](static/images/phd-comic-version-control-code-cropped-upper.gif)
 :::
 ::: {.fragment}
-![](static/images/phd-comic-version-control-code-cropped-lower.gif)
+![[&copy; Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd101212s.gif)](static/images/phd-comic-version-control-code-cropped-lower.gif)
 :::
-
 :::
 
 ::: {.column width="58%"}
-
 ::: {.fragment}
-... for **data** (binary files) {{< fa database >}}
-![](static/images/phd-comic-version-control-data.gif)
+... for **data** (binary files)
+![[&copy; Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd052810s.gif)](static/images/phd-comic-version-control-data.gif)
 :::
-
 :::
 
 ::::
@@ -150,11 +146,12 @@ Git as a tool for **collaboration**
 ::: {.fragment}
 ![[git-scm.com](https://git-scm.com/)](static/images/git-logo-full.svg){fig-align="center" width=50%}
 
-- most popular distributed version control system
+- most popular version control system
 - free, [open-source](https://github.com/git) command-line tool
 - graphical user interfaces exist, e.g., [GitKraken](https://www.gitkraken.com/)
 - standard tool for most (all?) software developers
-- 100 million [GitHub](https://github.com/) users (Source: [Wikipedia](https://en.wikipedia.org/wiki/GitHub))
+- 100 million [GitHub](https://github.com/) users ^[(Source: [Wikipedia](https://en.wikipedia.org/wiki/GitHub))]
+
 :::
 
 :::
@@ -214,7 +211,7 @@ Git as a tool for **collaboration**
 
 {{< fa code >}} **Code-along** & **exercises** (individual and group)
 
-{{< fa cloud-arrow-up >}} Computational environments on [JupyterHub](https://jupyter.org/hub) 
+{{< fa cloud-arrow-up >}} Fixed computational environments on [JupyterHub](https://jupyter.org/hub) 
 
 {{< fa terminal >}} Focus on **command-line** interaction
 
@@ -278,7 +275,8 @@ Git as a tool for **collaboration**
 ::: {.column width="45%"}
 ![[Prof. Dr. Nicolas Schuck](https://www.mpib-berlin.mpg.de/staff/nicolas-schuck)</br>(UHH & MPIB)](static/images/photo_schuck_portrait.jpg)
 :::
-::: {.column width="44%"}
+
+::: {.column width="45%"}
 ![[Carolin Scharfenberg](https://www.isa.uni-hamburg.de/ddlitlab/team/scharfenberg-carolin.html)</br>(UHH DDLitLab)](static/images/photo_scharfenberg_portrait.jpg)
 :::
 ::::
@@ -288,7 +286,6 @@ Git as a tool for **collaboration**
 {{< fa envelope >}} [lennart.wittkuhn@uni-hamburg.de](mailto:lennart.wittkuhn@uni-hamburg.de)
 
 {{< fa home-user >}} [lennartwittkuhn.com](https://lennartwittkuhn.com/)
-
 
 {{< fa brands twitter >}} [Twitter](https://twitter.com/lnnrtwttkhn)
 {{< fa brands mastodon >}} [Mastodon](https://fediscience.org/@lnnrtwttkhn)
