@@ -1,6 +1,6 @@
-on: [push]
-
 name: Quarto Publish
+
+on: [push]
 
 jobs:
   build-deploy:
