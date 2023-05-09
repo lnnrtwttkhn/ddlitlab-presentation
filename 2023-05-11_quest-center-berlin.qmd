@@ -60,7 +60,9 @@ execute:
 
 :package: **Software:** Reproducible slides built with [Quarto](https://quarto.org/) and deployed to [GitHub Pages](https://pages.github.com/) using [GitHub Actions](https://github.com/features/actions)
 
+<!-- 
 :trackball: **DOI:** [10.5281/zenodo.5012476](http://doi.org/10.5281/zenodo.5012476) (generated using GitHub releases + Zenodo, see details [here](https://guides.github.com/activities/citable-code/))
+-->
 
 {{< fa brands github >}} **Source:** Source code is publicly available on GitHub at [github.com/lnnrtwttkhn/ddlitlab-presentation](https://github.com/lnnrtwttkhn/ddlitlab-presentation/)
 
@@ -199,6 +201,20 @@ Git as a tool for **collaboration**
 
 :::
 
+::: {.fragment}
+
+### Milestones
+
+{{< fa star >}} Project received funding!
+
+{{< fa star >}} [Project website](https://lennartwittkuhn.com/ddlitlab/) online!
+
+{{< fa star >}} [Course website](https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/) online!
+
+{{< fa arrow-right >}} Next up: Prepare course!
+
+:::
+
 :::
 
 ::: {.column width="50%"}
@@ -222,20 +238,6 @@ Git as a tool for **collaboration**
 {{< fa people-carry-box >}} Support by **research** and **teaching assistants** 
 
 {{< fa box-open >}} Materials shared as **Open Educational Resources**
-
-:::
-
-::: {.fragment}
-
-### Milestones
-
-{{< fa star >}} Project received funding!
-
-{{< fa star >}} [Project website](https://lennartwittkuhn.com/ddlitlab/) online!
-
-{{< fa star >}} [Course website](https://lennartwittkuhn.com/ddlitlab/) online!
-
-{{< fa arrow-right >}} Next up: Prepare course!
 
 :::
 
