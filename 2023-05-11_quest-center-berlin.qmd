@@ -11,7 +11,7 @@ format:
     smaller: true
     scrollable: true
     # logo: static/images/uhh-logo-web.gif
-    footer: "{{< meta title >}}"
+    footer: "Version control of code and data using Git and DataLad"
     transition: none
     transition-speed: fast
     slide-number: "c/t"
@@ -40,7 +40,7 @@ execute:
 
 :microscope: **Research:** I study the role of fast neural memory reactivation ("[replay](https://en.wikipedia.org/wiki/Hippocampal_replay)") in the human brain using fMRI
 
-🕸 **GRN:** Member of the MPIB's working group on research data management and open science
+🕸 **GRN:** Member of the MPIB's working group on research data management & open science (GRN member)
 
 :link: **Contact:** You can connect with me via [email](mailto:wittkuhn@mpib-berlin.mpg.de), [Twitter](https://twitter.com/lnnrtwttkhn), [Mastodon](https://fediscience.org/@lnnrtwttkhn),
 [GitHub](https://github.com/lnnrtwttkhn) or
@@ -54,7 +54,7 @@ execute:
 
 ### This presentation
 
-:building_construction: **WIP:** This teaching project is work in progress!
+:building_construction: **WIP:** The presented teaching project is work in progress!
 
 :computer: **Slides:** Slides are publicly available at [lennartwittkuhn.com/ddlitlab-presentation](https://lennartwittkuhn.com/ddlitlab-presentation/)
 
@@ -105,26 +105,24 @@ execute:
 
 ::::: {.columns}
 
-:::: {.column width="51%"}
+:::: {.column width="50%"}
 ::: {.fragment}
-Git as a tool for **version control**
-
 {{< fa laptop-code >}} keep track of changes in a directory (a "repository")
 
 {{< fa code-commit >}} take snapshots ("commits") of your repo at any time
 
-{{< fa timeline >}} know the history of what was changed when by whom
+{{< fa timeline >}} know the history: what was changed when by whom
 
 {{< fa code-compare >}} compare commits and go back to any previous state
 
 {{< fa code-pull-request >}} work on parallel "branches" & flexibly "merge" them
+
+![[by Scriberia for The Turing Way community (CC-BY 4.0)](https://zenodo.org/record/3695300/files/VersionControl.jpg?download=1)](static/images/version-control-turing-way-scriberia.jpg){width=80% fig-align="center"}
 :::
 ::::
 
-:::: {.column width="49%"}
+:::: {.column width="50%"}
 ::: {.fragment}
-Git as a tool for **collaboration**
-
 {{< fa upload >}} "push" your repo to a "remote" location & share it
 
 {{< fa brands github >}} {{< fa brands gitlab >}} share repos on platforms like GitHub or GitLab
@@ -134,6 +132,8 @@ Git as a tool for **collaboration**
 {{< fa pen-to-square >}} others can read, copy, edit and suggest changes
 
 {{< fa box-open >}} make your repo public and openly share your work
+
+![[by Scriberia for The Turing Way community (CC-BY 4.0)](https://zenodo.org/record/3695300/files/FirstPullRequest.jpg?download=1)](static/images/first-pull-request-turing-way-scriberia.jpg){width=84% fig-align="center"}
 :::
 ::::
 
@@ -221,7 +221,7 @@ Git as a tool for **collaboration**
 
 ::: {.fragment}
 
-### Implementation and tools
+### Implementation and Tools
 
 {{< fa chalkboard-user >}} **Impulse lectures** & **live demonstrations**
 
@@ -235,9 +235,13 @@ Git as a tool for **collaboration**
 
 {{< fa clipboard-check >}} **Quizzes** & continuous **evaluation** (in [R Shiny](https://shiny.rstudio.com/))
 
+{{< fa recycle >}} Reuse quiz & evaluation results as example datasets
+
 {{< fa people-carry-box >}} Support by **research** and **teaching assistants** 
 
 {{< fa box-open >}} Materials shared as **Open Educational Resources**
+
+{{< fa hammer >}} Integration with [The Carpentries Incubator](https://carpentries-incubator.org/)?
 
 :::
 
@@ -297,13 +301,3 @@ Git as a tool for **collaboration**
 :::
 
 ::::
-
-
-## Schedule
-
-## Challenges
-
-## Evaluation
-
-## Why should students learn version control?
-
