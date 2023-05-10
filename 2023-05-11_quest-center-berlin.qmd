@@ -227,6 +227,8 @@ execute:
 
 {{< fa code >}} **Code-along** & **exercises** (individual and group)
 
+{{< fa book-open-reader >}} **Discussions** on reproducibility, open code & data
+
 {{< fa cloud-arrow-up >}} Fixed computational environments on [JupyterHub](https://jupyter.org/hub) 
 
 {{< fa terminal >}} Focus on **command-line** interaction
@@ -237,7 +239,7 @@ execute:
 
 {{< fa recycle >}} Reuse quiz & evaluation results as example datasets
 
-{{< fa people-carry-box >}} Support by **research** and **teaching assistants** 
+{{< fa people-carry-box >}} Support by **research** and **teaching assistants**
 
 {{< fa box-open >}} Materials shared as **Open Educational Resources**
 
