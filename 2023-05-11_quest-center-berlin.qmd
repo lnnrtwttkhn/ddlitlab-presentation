@@ -2,7 +2,7 @@
 title: 'A full-semester course on "Version control of code and data using Git and DataLad"'
 subtitle: |
   Symposium on "Reproducible Research: Education and Teaching Formats Reports</br>From the Reproducibility Networks" at QUEST Center Berlin, Germany
-author: "Talk by Dr. Lennart Wittkuhn"
+author: "Talk by Dr. Lennart Wittkuhn</br></br>License: CC BY 4.0"
 date: "2023-05-11"
 from: markdown+emoji
 format:
