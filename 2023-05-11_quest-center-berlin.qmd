@@ -229,7 +229,7 @@ execute:
 
 {{< fa code >}} **Code-along** & **exercises** (individual and group)
 
-{{< fa book-open-reader >}} **Discussions** on reproducibility, open code & data
+{{< fa comments >}} **Discussions** on reproducibility, open code & data
 
 {{< fa cloud-arrow-up >}} Fixed computational environments on [JupyterHub](https://jupyter.org/hub) 
 
@@ -245,7 +245,7 @@ execute:
 
 {{< fa box-open >}} Materials shared as **Open Educational Resources**
 
-{{< fa hammer >}} Integration with [The Carpentries Incubator](https://carpentries-incubator.org/)?
+{{< fa hammer >}} Integration with [GRN](https://reproducibilitynetwork.de/), [Carpentries Incubator](https://carpentries-incubator.org/) etc.?
 
 :::
 
