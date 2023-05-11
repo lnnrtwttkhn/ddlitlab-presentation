@@ -1,0 +1,20 @@
+abstract: 'Source code for slides presenting the teaching project "Version control of code and data using Git and DataLad", a full-semester course at the University of Hamburg. This project is funded by the Digital and Data Literacy in Teaching Lab (DDLitLab), an initiative by the ISA-Zentrum at the University of Hamburg. The Digital and Data Literacy in Teaching Lab program is in turn funded by the Stiftung Innovation in der Hochschullehre.'
+authors:
+  - family-names: Wittkuhn
+    given-names: Lennart
+    orcid: "https://orcid.org/0000-0003-2966-6888"
+cff-version: 1.2.0
+date-released: "2021-05-11"
+keywords:
+  - "Version Control"
+  - "Git"
+  - "DataLad"
+  - "Data Literacy"
+  - "Reproducibility"
+  - "Open Science"
+  - "Education"
+license: CC BY 4.0
+message: "If you use this software, please cite it using these metadata."
+repository-code: "https://github.com/lnnrtwttkhn/ddlitlab-presentation/"
+title: 'A full-semester course on "Version control of code and data using Git and DataLad"'
+version: 0.1
