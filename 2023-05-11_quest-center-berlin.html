@@ -37,6 +37,8 @@
   <link href="2023-05-11_quest-center-berlin_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="2023-05-11_quest-center-berlin_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="2023-05-11_quest-center-berlin_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="2023-05-11_quest-center-berlin_files/libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="2023-05-11_quest-center-berlin_files/libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="2023-05-11_quest-center-berlin_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
@@ -559,7 +561,7 @@ Talk by Dr.&nbsp;Lennart Wittkuhn<br><br>License: CC BY 4.0
 <h2>Thank you!</h2>
 <div class="columns">
 <div class="column" style="width:40%;">
-<h4 id="funding">Funding</h4>
+<h4 id="funding-support">Funding &amp; Support</h4>
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="static/images/uhh-logo-print-full.png" style="width:100.0%"></p>
@@ -618,6 +620,7 @@ Talk by Dr.&nbsp;Lennart Wittkuhn<br><br>License: CC BY 4.0
   <script src="2023-05-11_quest-center-berlin_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="2023-05-11_quest-center-berlin_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="2023-05-11_quest-center-berlin_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="2023-05-11_quest-center-berlin_files/libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="2023-05-11_quest-center-berlin_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -639,7 +642,8 @@ Talk by Dr.&nbsp;Lennart Wittkuhn<br><br>License: CC BY 4.0
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
 'smaller': true,
  
         // Display controls in the bottom right corner
@@ -810,7 +814,7 @@ Talk by Dr.&nbsp;Lennart Wittkuhn<br><br>License: CC BY 4.0
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
           RevealNotes,
@@ -819,6 +823,8 @@ Talk by Dr.&nbsp;Lennart Wittkuhn<br><br>License: CC BY 4.0
         ]
       });
     </script>
+    <script async="" defer="" src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+    <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade"></noscript>
     
     <script>
       // htmlwidgets need to know to resize themselves when slides are shown/hidden.
