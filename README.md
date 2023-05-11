@@ -4,7 +4,7 @@
 
 ## About
 
-Source code for slides presenting the teaching project "Version control of code and data using Git and DataLad", a full-semester course at the University of Hamburg.
+Source code for slides on the teaching project "Version control of code and data using Git and DataLad", a full-semester course at the University of Hamburg.
 
 ## Funding
 
@@ -18,4 +18,5 @@ The Digital and Data Literacy in Teaching Lab program is in turn funded by the S
 ## License
 
 Creative Commons Attribution 4.0 International (CC BY 4.0).
-Pleae see the [LICENSE](LICENSE) file for details.
+
+Please see the [LICENSE](LICENSE) file for details.
