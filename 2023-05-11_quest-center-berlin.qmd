@@ -21,6 +21,8 @@ format:
     link-external-newwindow: true
     reference-location: document
     preview-links: false
+    chalkboard: true
+    include-after-body: simple-analytics.html
 mainfont: Atkinson Hyperlegible
 engine: knitr
 execute:
