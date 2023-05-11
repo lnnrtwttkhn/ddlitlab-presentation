@@ -266,7 +266,7 @@ execute:
 
 ::: {.column width="40%"}
 
-#### Funding
+#### Funding & Support
 
 ![[Digital and Data Literacy in Teaching Lab (DDLitLab), an initiative by the ISA-Zentrum at University of Hamburg](https://www.isa.uni-hamburg.de/en/ddlitlab/data-literacy-lehrlabor.html)](static/images/uhh-logo-print-full.png){fig-align="center" width=100%}
 
