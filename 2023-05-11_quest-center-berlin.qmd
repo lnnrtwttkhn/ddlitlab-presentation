@@ -22,7 +22,7 @@ format:
     reference-location: document
     preview-links: false
     chalkboard: true
-    include-after-body: simple-analytics.html
+    include-after-body: analytics.html
 mainfont: Atkinson Hyperlegible
 engine: knitr
 execute:
