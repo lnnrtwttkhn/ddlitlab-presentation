@@ -213,6 +213,8 @@ execute:
 
 {{< fa star >}} [Course website](https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/) online!
 
+</br>
+
 {{< fa arrow-right >}} Next up: Prepare course!
 
 :::
@@ -239,13 +241,15 @@ execute:
 
 {{< fa clipboard-check >}} **Quizzes** & continuous **evaluation** (in [R Shiny](https://shiny.rstudio.com/))
 
-{{< fa recycle >}} Reuse quiz & evaluation results as example datasets
+{{< fa recycle >}} Reuse quiz & evaluation data as **example datasets**
+
+{{< fa forward >}} **Follow-up** research projects in summer semester
 
 {{< fa people-carry-box >}} Support by **research** and **teaching assistants**
 
 {{< fa box-open >}} Materials shared as **Open Educational Resources**
 
-{{< fa hammer >}} Integration with [GRN](https://reproducibilitynetwork.de/), [Carpentries Incubator](https://carpentries-incubator.org/) etc.?
+{{< fa hammer >}} Integration with [GRN](https://reproducibilitynetwork.de/), [Carpentries Incubator](https://carpentries-incubator.org/), etc.?
 
 :::
 
