@@ -3,7 +3,7 @@
 
 cff-version: 1.2.0
 title: >-
-  Slides about the teaching project "Version control of code
+  Slides on the teaching project "Version control of code
   and data using Git and DataLad", a full-semester course at
   University of Hamburg
 message: >-
@@ -18,7 +18,7 @@ repository-code: 'https://github.com/lnnrtwttkhn/ddlitlab-presentation/'
 url: >-
   https://lennartwittkuhn.com/ddlitlab-presentation/#/title-slide
 abstract: >-
-  Source code for slides presenting the teaching project
+  Source code for slides on the teaching project
   "Version control of code and data using Git and DataLad",
   a full-semester course at the University of Hamburg. This
   project is funded by the Digital and Data Literacy in
