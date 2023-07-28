@@ -1,0 +1,46 @@
+---
+title: 'Talks about the full-semester course on "Version control of code and data using Git and DataLad"'
+date-modified: today
+abstract: |
+  Welcome!
+  This website hosts slides and other resources for talks about the full-semester course on "Version control of code and data using Git and DataLad".
+  An archive of the slides can be found in the [archive](#archive) section.
+  You can find the GitHub repository with all the source code [here](https://github.com/lnnrtwttkhn/ddlitlab-presentation).
+  All contents are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0) license (for details, see [here](https://github.com/lnnrtwttkhn/talk-rdm/blob/master/LICENSE) and [here](https://creativecommons.org/licenses/by-sa/4.0/)).
+  If you notice any issues or have suggestions for improvement, we would be glad to hear from you!
+  Please open an [issue](https://github.com/lnnrtwttkhn/ddlitlab-presentation/issues) on GitHub or contact me via [email](mailto:lennart.wittkuhn@uni-hamburg.de).
+  Thanks!
+abstract-title: "About"
+format:
+  html:
+    output-file: index.html
+    toc-title: "Talks"
+mainfont: Atkinson Hyperlegible
+engine: knitr
+execute:
+  eval: false
+  echo: true
+---
+
+
+[![Quarto Publish](https://github.com/lnnrtwttkhn/ddlitlab-presentation/actions/workflows/publish.yml/badge.svg)](https://github.com/lnnrtwttkhn/ddlitlab-presentation/actions/workflows/publish.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7926691.svg)](https://doi.org/10.5281/zenodo.7926691)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+```{=html}
+<iframe width="100%" height="560" src="2023-05-11_quest-center-berlin.html" title="Quarto Documentation"></iframe>
+```
+
+## QUEST Center
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7926692.svg)](https://doi.org/10.5281/zenodo.7926692)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+{{< fa calendar-check >}} **Event:** Hybrid symposium on "Reproducible Research: Education and Teaching Formats Reports From the Reproducibility Networks" (presented in person in Berlin)</br>
+{{< fa map-pin >}} **Venue:** [QUEST Center of the Berlin Institute of Health at Charité (BIH)](https://www.bihealth.org/de/translation/innovationstreiber/quest-center)</br>
+{{< fa clock >}} **Date:** 2023-05-11</br>
+{{< fa chalkboard-user >}} **Presenter:** [Dr. Lennart Wittkuhn](https://www.lennartwittkuhn.com/)
+
+```{=html}
+<iframe width="100%" height="560" src="static/images/2023-05-11_quest-center-berlin_presentation.pdf"></iframe>
+```

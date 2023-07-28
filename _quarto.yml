@@ -1,0 +1,91 @@
+project:
+  # project:
+  type: website
+  output-dir: docs
+  preview:
+    port: 5689
+    browser: true
+    watch-inputs: true
+    navigate: true
+author:
+- id: wittkuhn
+  # number: number
+  name:
+    given: Lennart
+    family: Wittkuhn
+    literal: Dr. Lennart Wittkuhn
+    # dropping-particle: string
+    # non-dropping-particle: string
+  url: https://lennartwittkuhn.com/
+  email: lennart.wittkuhn@uni-hamburg.de
+  # fax: string
+  orcid: 0000-0003-2966-6888
+  # note: string
+  # acknowledgements: string
+  attributes:
+    corresponding: boolean
+    # equal-contributor: boolean
+    # deceased: boolean
+  # metadata: object
+  affiliations:
+    - ref: uhh-psych
+    - ref: mpib
+    - ref: mps-ucl
+format:
+  # see here for all html options: https://quarto.org/docs/reference/formats/html.html
+  html:
+    # format options:
+    theme: [cosmo, custom.scss]
+    anchor-sections: true
+    smooth-scroll: true
+    html-math-method: katex
+    email-obfuscation: none
+    # table of contents:
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    toc-title: "Contents"
+    toc-expand: true
+    # numbering:
+    number-sections: false
+    # layout:
+    cap-location: margin
+    fig-cap-location: margin
+    tbl-cap-location: margin
+    page-layout: article
+    # code:
+    code-fold: show
+    code-summary: "Show the code"
+    code-overflow: wrap
+    code-line-numbers: true
+    code-copy: true
+    code-link: false
+    code-annotations: true
+    code-tools:
+      source: https://github.com/lnnrtwttkhn/ddlitlab-presentation
+      toggle: true
+      caption: "Code"
+    highlight-style: monokai
+    # execution:
+    execute:
+      eval: false
+    # links:
+    link-external-icon: false
+    link-external-newwindow: true
+    # references
+    # bibliography: bibliography/code/bibliography.bib
+    csl: "apa-6th-edition.csl"
+    # language
+    language: en
+    # metadata
+    copyright: "Lennart Wittkuhn"
+    license: "CC BY"
+    # rendering:
+    from: "markdown+emoji"
+    # website:
+    search: false
+    # includes:
+    include-after-body: analytics.html
+    metadata-files:
+      - _affiliations.yml
+    
