@@ -26,8 +26,18 @@ execute:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7926691.svg)](https://doi.org/10.5281/zenodo.7926691)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
+## MPRG NeuroCode
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7926691.svg)](https://doi.org/10.5281/zenodo.7926691)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+{{< fa calendar-check >}} **Event:** Hybrid lab meeting of the [Max Planck Research Group "NeuroCode"](https://www.mpib-berlin.mpg.de/research/research-groups/mprg-neurocode) and the [Research Group "Mechanisms of Learning and Change"](https://www.psy.uni-hamburg.de/en/arbeitsbereiche/lern-und-veraenderungsmechanismen.html) at University of Hamburg (presented online)</br>
+{{< fa map-pin >}} **Venue:** [Max Planck Research Group "NeuroCode"](https://www.mpib-berlin.mpg.de/research/research-groups/mprg-neurocode) at the Max Planck Institute for Human Development Berlin & [Research Group "Mechanisms of Learning and Change"](https://www.psy.uni-hamburg.de/en/arbeitsbereiche/lern-und-veraenderungsmechanismen.html) at University of Hamburg </br>
+{{< fa clock >}} **Date:** 2023-08-15</br>
+{{< fa chalkboard-user >}} **Presenters:** [Dr. Lennart Wittkuhn](https://www.lennartwittkuhn.com/) & Konrad Pagenstedt
+
 ```{=html}
-<iframe width="100%" height="560" src="2023-05-11_quest-center-berlin.html" title="Quarto Documentation"></iframe>
+<iframe width="100%" height="560" src="2023-08-15_neurocode-mpib-berlin.html"></iframe>
 ```
 
 ## QUEST Center
