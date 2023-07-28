@@ -33,26 +33,6 @@ execute:
 
 ::: {.fragment}
 
-### Me
-
-:scientist: **Position:** PostDoc & Lab Manager at [University of Hamburg](https://www.psy.uni-hamburg.de/en/arbeitsbereiche/lern-und-veraenderungsmechanismen.html) & [MPI for Human Development Berlin](https://www.mpib-berlin.mpg.de/en)
-
-:mortar_board: **Education:** BSc Psychology & MSc Cognitive Neuroscience (TU Dresden), PhD Psychology (FU Berlin)
-
-:microscope: **Research:** I study the role of fast neural memory reactivation ("[replay](https://en.wikipedia.org/wiki/Hippocampal_replay)") in the human brain using fMRI
-
-🕸 **GRN:** Member of the MPIB's working group on research data management & open science (GRN member)
-
-:link: **Contact:** You can connect with me via [email](mailto:wittkuhn@mpib-berlin.mpg.de), [Twitter](https://twitter.com/lnnrtwttkhn), [Mastodon](https://fediscience.org/@lnnrtwttkhn),
-[GitHub](https://github.com/lnnrtwttkhn) or
-[LinkedIn](https://www.linkedin.com/in/lennart-wittkuhn-6a079a1a8/)
-
-:information_source: **Info:** Find out more about my work on [my website](https://lennartwittkuhn.com/), [Google Scholar](https://scholar.google.de/) and [ORCiD](https://orcid.org/0000-0003-2966-6888)
-
-:::
-
-::: {.fragment}
-
 ### This presentation
 
 :building_construction: **WIP:** The presented teaching project is work in progress!
