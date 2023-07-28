@@ -71,6 +71,23 @@ execute:
 
 :::
 
+## Background & History
+
+::: {.fragment}
+
+
+- **October 2022:**
+  - Lennart realizes that he will need to teach at UHH next year :scream:
+  - Lennart thinks: "Can I teach what I am most excited about?" (Quiz: What is Lennart most excited about?)
+  - Lennart discovers the [Digital and Data Literacy in Teaching Lab (DDLitLab)](https://www.isa.uni-hamburg.de/ddlitlab.html) funding program :star_struck:
+  - Lennart thinks: "Maybe if I can get some money, I can convince people to let me teach Git." :money_mouth_face:
+
+:::
+
+## Objectives
+
+> Nico: "*Before you start, use one slide to clarify your objectives: What's the intended duration? Are you seeking a rigorous critique of your argument or just some final touch-ups? Do you want feedback on details or more on the overarching theme?*"
+
 ## Why we need version control ...
 
 :::: {.columns}
