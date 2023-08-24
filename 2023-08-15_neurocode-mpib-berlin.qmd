@@ -179,57 +179,51 @@ execute:
 - Version control is relevant for anyone who wants to track the evolution of digital objects
 :::
 
-## Course Overview
+## Course structure
 
-Hello
+::: {.fragment}
+**Summary:** A hands-on seminar about version control of code and data using Git with curated online materials, interactive discussions, quizzes and exercises, targeted at (aspiring) researchers in Psychology & Neuroscience.
+:::
 
+::::: {.fragment}
 :::: {.columns}
-
 ::: {.column width="50%"}
 - {{< fa calendar-days >}} **Date:** Winter semester 2023/24 (Oct to Feb)
 - {{< fa clock >}} **Time:** Fridays, 10:15 to 11:45 am (90 minutes)
 - {{< fa building-columns >}} **Room:** UHH, VMP 5, Room 4047
-- {{< fa person-chalkboard >}} **Instructor:** [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
+- {{< fa user-graduate >}} **Program:** MSc Psychology (PO 2014)
 :::
 ::: {.column width="50%"}
 - {{< fa chalkboard >}} **Event:** Seminar
+- {{< fa rectangle-list >}} **Module:** Elective Course
 - {{< fa gem >}} **Credits:** 4,0
-- {{< fa language >}} **Language:** English / German
-:::
-
-::::
-
-:::: {.columns}
-::: {.column width="50%"}
-<br><br>
-
-:::
-::: {.column width="50%"}
-
-:::
-::: {.column width="50%"}
-
-:::
-::: {.column width="50%"}
-
-:::
-::: {.column width="50%"}
-
-:::
-::: {.column width="50%"}
-
-:::
-::: {.column width="50%"}
-
-:::
-::: {.column width="50%"}
-{{< fa tag >}} **Tag:** PsyM14-PsyWB-K02 
+- {{< fa language >}} **Language:** English (German optional)
 :::
 ::::
+:::::
 
-## Course structure
+::: {.fragment}
+**What does the average seminar session look like?**
+:::
 
-What does the average seminar session look like?
+::: {.incremental}
+
+1. {{< fa book-open >}} **Content Review (up to 30 minutes):**
+<br> Course participants engage with [the online materials](https://lennartwittkuhn.com/version-control-book/), supplemented by concise presentations by the instructors.
+Some course preparation may occur outside of the class.
+   
+2. {{< fa comments >}} **Interactive Discussions & Quizzes (up to 15 minutes):**
+<br>Course participants collectively address any inquiries related to the session's content and online materials.
+Instructor-led quiz questions may also be interspersed throughout.
+
+3. {{< fa laptop-code >}} **Exercises & Implementation (up to 60 minutes):**
+<br>Course participants actively delve into hands-on exercises and assignments.
+
+:::
+
+
+
+
 
 ## Course contents
 
