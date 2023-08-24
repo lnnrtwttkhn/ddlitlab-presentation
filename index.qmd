@@ -33,7 +33,7 @@ execute:
 
 {{< fa calendar-check >}} **Event:** Hybrid lab meeting of the [Max Planck Research Group "NeuroCode"](https://www.mpib-berlin.mpg.de/research/research-groups/mprg-neurocode) and the [Research Group "Mechanisms of Learning and Change"](https://www.psy.uni-hamburg.de/en/arbeitsbereiche/lern-und-veraenderungsmechanismen.html) at University of Hamburg (presented online)</br>
 {{< fa map-pin >}} **Venue:** [Max Planck Research Group "NeuroCode"](https://www.mpib-berlin.mpg.de/research/research-groups/mprg-neurocode) at the Max Planck Institute for Human Development Berlin & [Research Group "Mechanisms of Learning and Change"](https://www.psy.uni-hamburg.de/en/arbeitsbereiche/lern-und-veraenderungsmechanismen.html) at University of Hamburg </br>
-{{< fa clock >}} **Date:** 2023-08-15</br>
+{{< fa clock >}} **Date:** 2023-08-29</br>
 {{< fa chalkboard-user >}} **Presenters:** [Dr. Lennart Wittkuhn](https://www.lennartwittkuhn.com/) & Konrad Pagenstedt
 
 ```{=html}
