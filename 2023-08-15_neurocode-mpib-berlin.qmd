@@ -258,10 +258,6 @@ execute:
 - Extend course format to other experience levels (e.g., PhD students) and topics
 :::
 
-## Local GRN node in Hamburg?
-
-![from [reproducibilitynetwork.de/members](https://reproducibilitynetwork.de/members/)](static/images/grn-local-nodes-hamburg.png){fig-align="center" width=50%}
-
 ## Thank you!
 
 :::: {.columns}
