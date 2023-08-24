@@ -47,7 +47,8 @@ execute:
 
 {{< fa brands github >}} **Source:** Source code is publicly available on GitHub at [github.com/lnnrtwttkhn/ddlitlab-presentation](https://github.com/lnnrtwttkhn/ddlitlab-presentation/)
 
-:pray: **Contact:** I am happy for any feedback or suggestions via [email](mailto:lennart.wittkuhn@uni-hamburg.de) or [GitHub issues](https://github.com/lnnrtwttkhn/ddlitlab-presentation/issues). Thank you!
+:pray: **Contact:** We are happy for any feedback or suggestions via [email](mailto:lennart.wittkuhn@uni-hamburg.de) or [GitHub issues](https://github.com/lnnrtwttkhn/ddlitlab-presentation/issues).
+Thank you!
 
 :::
 
