@@ -252,6 +252,94 @@ execute:
 
 :::
 
+## Course content {.smaller}
+
+:::: columns
+
+::: {.column width="50%"} 
+#### {{< fa book-open >}} Chapters/Sessions [Link to the book](https://lennartwittkuhn.com/version-control-book)
+::: fragment
+####### 1. Introduction to version control 
+####### 2. Command line
+:::
+::: fragment
+####### 3. Git Basics
+####### 4. Git Branching and Merging
+####### 5. Collaborative Workflows with Git (GitHub)
+:::
+::: fragment
+####### 6. Git Workflows
+####### 7. Stashing and Rebasing
+####### 8. Graphical User Interfaces (GUIs)
+####### 9. Project Management and Collaboration Tools
+####### 10. Git Tags and Releases
+:::
+::: fragment
+####### 11. Submodules and Advanced Topics
+####### 12. DataLad Talk
+####### 13. ???
+####### 14. Cake? {{< fa cake-candles >}}
+:::
+:::
+
+::: {.column width="50%"} 
+::: fragment
+#### {{< fa eye >}} Peek in the Book
+
+<iframe src="https://lennartwittkuhn.com/version-control-book/contents.html" width="100%" height="550px">
+
+</iframe>
+:::
+:::
+::::
+
+## Course content (continued)
+
+:::: columns
+
+::: {.column width="50%"} 
+#### {{< fa vials >}} Exercises/Quiz
+::: fragment
+####### 1. Imagine a situation where you've lost a lot off progress on your paper. How can you retrieve the lost content? (Types of version control)
+
+####### 2. Using basic commands to view, move, and rename files, as well as change directories.
+:::
+
+::: fragment
+####### 3. Install Git, initiate a local folder as a Git repository, stage and commit changes to files, write descriptive commit messages, and create a .gitignore file.
+
+####### 4. Create, switch, and delete branches, merge branches together, and effectively resolve merge conflict.
+
+####### 5. Establish the connection between Git and GitHub, upload your repository to GitHub, and effectively pull and push changes to files.
+:::
+
+::: fragment
+####### 6. 
+
+####### 7. Discover how to temporarily stash and retrieve changes to files, and explore the usage of rebase as an alternative to merge.
+
+####### 8. Install a graphical user interface (GUI) client like GitHub Desktop or GitKraken, practice partial commits, and  work on a repository as an RStudio project.
+
+####### 9. 
+####### 10.
+::: 
+::: fragment
+####### 11.
+####### 12.
+####### 13.
+:::
+:::
+
+::: {.column width="50%"} 
+::: fragment
+#### {{< fa eye >}} Example questions
+
+<iframe src="https://psyunihamburg.qualtrics.com/jfe/form/SV_bq1SpKpiRdVYzL8" width="100%" height="550px">
+
+</iframe>
+:::
+:::
+::::
 :::
 
 ::::
