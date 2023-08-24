@@ -68,6 +68,8 @@ execute:
 
 > Nico: "*Before you start, use one slide to clarify your objectives: What's the intended duration? Are you seeking a rigorous critique of your argument or just some final touch-ups? Do you want feedback on details or more on the overarching theme?*"
 
+- What are good exercises for each session?
+
 ## Why we need version control ...
 
 :::: {.columns}
@@ -177,6 +179,90 @@ execute:
 - Version control is relevant for anyone who wants to track the evolution of digital objects
 :::
 
+## Course Overview
+
+Hello
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- {{< fa calendar-days >}} **Date:** Winter semester 2023/24 (Oct to Feb)
+- {{< fa clock >}} **Time:** Fridays, 10:15 to 11:45 am (90 minutes)
+- {{< fa building-columns >}} **Room:** UHH, VMP 5, Room 4047
+- {{< fa person-chalkboard >}} **Instructor:** [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
+:::
+::: {.column width="50%"}
+- {{< fa chalkboard >}} **Event:** Seminar
+- {{< fa gem >}} **Credits:** 4,0
+- {{< fa language >}} **Language:** English / German
+:::
+
+::::
+
+:::: {.columns}
+::: {.column width="50%"}
+<br><br>
+
+:::
+::: {.column width="50%"}
+
+:::
+::: {.column width="50%"}
+
+:::
+::: {.column width="50%"}
+
+:::
+::: {.column width="50%"}
+
+:::
+::: {.column width="50%"}
+
+:::
+::: {.column width="50%"}
+
+:::
+::: {.column width="50%"}
+{{< fa tag >}} **Tag:** PsyM14-PsyWB-K02 
+:::
+::::
+
+## Course structure
+
+What does the average seminar session look like?
+
+## Course contents
+
+Present that we are planning to do content-wise
+
+1. Session topic (focus)
+1. Why do we teach about this topic?
+1. Link to chapter in version control book
+1. Which quiz questions, if available
+1. Which exercises, if available
+1. How complete?
+
+Questions:
+
+- Any topics that you are missing?
+- What else would *you* like to learn about?
+
+## Course contents (continued)
+
+#### Session 1: Introduction to version control
+
+- What is version control?
+
+#### Session 2: Command line
+
+# Course evaluation
+
+## Course evaluation
+
+- Ethics Proposal
+- Study design
+
+
 ## Course details
 
 :::: {.columns}
@@ -184,6 +270,7 @@ execute:
 ::: {.column width="50%"}
 
 ::: {.fragment}
+
 
 ### Overview
 
