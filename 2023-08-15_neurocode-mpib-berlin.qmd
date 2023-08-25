@@ -73,6 +73,18 @@ Thank you!
 
 - What are good exercises for each session?
 
+## How it started ...
+
+::: {layout-ncol=2}
+::: {.fragment}
+![[Photo by Lennart Wittkuhn](https://cloud.uni-hamburg.de/s/Cd6fciKbajxc86E)](static/images/23-06-09-whiteboard-project-overview.jpg)
+:::
+
+::: {.fragment}
+![["Pepe Silvia" meme, scene from "It's Always Sunny In Philadelphia"](https://knowyourmeme.com/memes/pepe-silvia)](static/images/pepe-silvia-meme.jpg)
+:::
+:::
+
 ## Why we need version control ...
 
 :::: {.columns}
