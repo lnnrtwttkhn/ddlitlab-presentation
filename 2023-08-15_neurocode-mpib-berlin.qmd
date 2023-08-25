@@ -14,7 +14,7 @@ format:
     number-sections: false
     scrollable: true
     # logo: static/images/uhh-logo-web.gif
-    footer: "Version control of code and data using Git and DataLad"
+    footer: "Version control of code and data"
     transition: none
     transition-speed: fast
     slide-number: "c/t"
