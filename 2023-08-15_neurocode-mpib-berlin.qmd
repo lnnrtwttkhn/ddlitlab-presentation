@@ -29,6 +29,7 @@ format:
     chalkboard: true
     mutliplex: false
 mainfont: Atkinson Hyperlegible
+bibliography: references.bib
 engine: knitr
 execute:
   eval: false
@@ -268,60 +269,34 @@ Questions:
 
 #### Session 2: Command line
 
-# Course evaluation
-
 ## Course evaluation
 
-- Ethics Proposal
-- Study design
-
-
-## Course details
-
-:::: {.columns}
-
-::: {.column width="50%"}
-
 ::: {.fragment}
-
-
-### Overview
-
-{{< fa circle-info >}} Full-semester seminar (~ 12 sessions of 90 mins)
- 
-{{< fa calendar-days >}} Winter semester 2023/24 (October to January)
-
-{{< fa building-columns >}} University of Hamburg (virtual option TBD)
-
-{{< fa user-group >}} MSc and PhD students (research focus)
-
-{{< fa brain >}} Psychology and Cognitive Neuroscience
-
+#### Background
+- {{< fa clock >}} "Digital Open Science" [@toelch2018]: Version control among *least* implemented practice.<br>
+{{< fa arrow-right >}} Teaching / learning version control takes time and students should engage in hands-on coding assignments
+- {{< fa life-ring >}} Software Carpentries [@wilson2016]: Provide opportunities for repeated practice in a controlled environment
 :::
 
 ::: {.fragment}
-
-### Milestones
-
-{{< fa star >}} Project received funding!
-
-{{< fa star >}} [Project website](https://lennartwittkuhn.com/ddlitlab/) online!
-
-{{< fa star >}} [Course website](https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/) online!
-
-</br>
-
-{{< fa arrow-right >}} Next up: Prepare course!
-
-:::
-
-:::
-
-::: {.column width="50%"}
+#### Scholarship of Teaching
+- {{< fa lightbulb >}} We have a full-semester and dedicate most time to practical implementation!
+- {{< fa circle-question >}} Will this learning setting result in more implementation?
+:::  
 
 ::: {.fragment}
+#### Measurements
+- {{< fa laptop-code >}} Record and evaluate responses to quiz questions, implemented in [formR](https://formr.org/) [@arslan2019]<br>
+- {{< fa brands github >}} Assess number of PRs, comments in issues etc. from public repos via GitHub API [cf. @millman2018]
+:::
 
-### Implementation and Tools
+::: {.fragment}
+#### Open questions and TODOs
+- {{< fa ruler-horizontal >}} Details of the study design (follow-up survey after 1 and 2 years?)<br>
+- {{< fa person-circle-check >}} Ethics proposal for data collection and publication
+:::
+
+## Implementation and tools
 
 {{< fa chalkboard-user >}} **Impulse lectures** & **live demonstrations**
 
@@ -401,3 +376,8 @@ Questions:
 :::
 
 ::::
+
+## References
+
+::: {#refs}
+:::
