@@ -249,18 +249,19 @@ execute:
 {{< fa box-open >}} Materials shared as **Open Educational Resources**
 
 {{< fa hammer >}} Integration with [GRN](https://reproducibilitynetwork.de/), [Carpentries Incubator](https://carpentries-incubator.org/), etc.?
-
 :::
+:::
+:::: 
 
 ## Course content {.smaller}
 
 :::: columns
-
 ::: {.column width="50%"} 
 #### {{< fa graduation-cap >}} Sessions 
-::: fragment
 ####### 1. Introduction to version control
+::: fragment
 ####### 2. Command line
+
 :::
 ::: fragment
 ####### 3. Git Basics
