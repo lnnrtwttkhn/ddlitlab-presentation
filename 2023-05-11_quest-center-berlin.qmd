@@ -255,12 +255,12 @@ execute:
 ## Course content {.smaller}
 
 :::: columns
-
 ::: {.column width="50%"} 
 #### {{< fa graduation-cap >}} Sessions 
-::: fragment
 ####### 1. Introduction to version control
+::: fragment
 ####### 2. Command line
+
 :::
 ::: fragment
 ####### 3. Git Basics
