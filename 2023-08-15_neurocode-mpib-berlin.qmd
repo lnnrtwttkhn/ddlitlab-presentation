@@ -11,6 +11,7 @@ format:
     toc: true
     toc-depth: 2
     toc-title: "Agenda"
+    number-sections: false
     scrollable: true
     # logo: static/images/uhh-logo-web.gif
     footer: "Version control of code and data using Git and DataLad"
@@ -23,7 +24,10 @@ format:
     link-external-newwindow: true
     reference-location: document
     preview-links: false
+    overview: true
+    menu: true
     chalkboard: true
+    mutliplex: false
 mainfont: Atkinson Hyperlegible
 engine: knitr
 execute:
