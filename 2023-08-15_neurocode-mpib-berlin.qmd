@@ -8,7 +8,9 @@ from: markdown+emoji
 format:
   revealjs:
     theme: [default, custom.scss]
-    smaller: true
+    toc: true
+    toc-depth: 2
+    toc-title: "Agenda"
     scrollable: true
     # logo: static/images/uhh-logo-web.gif
     footer: "Version control of code and data using Git and DataLad"
