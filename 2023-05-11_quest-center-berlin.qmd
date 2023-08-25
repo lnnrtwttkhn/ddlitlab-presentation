@@ -253,16 +253,16 @@ execute:
 :::
 :::
 
-##  Learning objectives {{< fa bullseye >}}
+## {{< fa bullseye >}} Learning objectives 
 
 ::: {.incremental style="font-size: 40px;"}
--   Benefits of version control using Git {{< fa circle-plus >}}
+- {{< fa circle-plus >}} Benefits of version control using Git 
 
--   Using Git for local version control {{< fa desktop >}}
+-  {{< fa desktop >}} Using Git for local version control 
 
--   Using remote Git repositories to collaborate  {{< fa cloud >}}
+-   {{< fa cloud >}} Using remote Git repositories to collaborate  
 
--   Releasing scientific work using Git repositories {{< fa microscope >}}
+-  {{< fa microscope >}} Releasing scientific work using Git repositories 
 :::
 
 ## Course content {.smaller}
