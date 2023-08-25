@@ -82,7 +82,7 @@ Thank you!
 
 ::: {layout-ncol=2}
 ::: {.fragment}
-![[Photo by Lennart Wittkuhn](https://cloud.uni-hamburg.de/s/Cd6fciKbajxc86E)](static/images/23-06-09-whiteboard-project-overview.jpg)
+![[Lennart's whiteboard in the beginning of June 2023](https://cloud.uni-hamburg.de/s/Cd6fciKbajxc86E)](static/images/23-06-09-whiteboard-project-overview.jpg)
 :::
 
 ::: {.fragment}
@@ -114,7 +114,7 @@ Thank you!
 ::::
 
 ::: {.notes}
-- Version control is relevant for anyone who wants to track the evolution of digital objects
+- Version control is relevant for anyone who wants to track the evolution of digital objects.
 :::
 
 ## What is version control?
@@ -214,7 +214,7 @@ Thank you!
 - {{< fa user-graduate >}} **Program:** MSc Psychology (PO 2014)
 :::
 ::: {.column width="50%"}
-- {{< fa chalkboard >}} **Event:** Seminar
+- {{< fa chalkboard >}} **Events:** 14 seminar sessions
 - {{< fa rectangle-list >}} **Module:** Elective Course
 - {{< fa gem >}} **Credits:** 4,0
 - {{< fa language >}} **Language:** English (German optional)
@@ -241,9 +241,9 @@ Instructor-led quiz questions may also be interspersed throughout.
 
 :::
 
-
-
-
+::: {.notes}
+- Students are from the old MSc program and not necessarily focused on research.
+:::
 
 ## Course contents
 
@@ -310,7 +310,7 @@ Questions:
 
 {{< fa computer-mouse >}} Alternative use via **Graphical User Interfaces**
 
-{{< fa clipboard-check >}} **Quizzes** & continuous **evaluation** (in [R Shiny](https://shiny.rstudio.com/))
+{{< fa clipboard-check >}} **Quizzes** & continuous **evaluation** (in [formR](https://formr.org/))
 
 {{< fa recycle >}} Reuse quiz & evaluation data as **example datasets**
 
@@ -322,14 +322,8 @@ Questions:
 
 {{< fa hammer >}} Integration with [GRN](https://reproducibilitynetwork.de/), [Carpentries Incubator](https://carpentries-incubator.org/), etc.?
 
-:::
-
-:::
-
-::::
-
 ::: {.notes}
-- Building an educational resource
+- The aim is to build an open, long-lasting educational resource
 - Extend course format to other experience levels (e.g., PhD students) and topics
 :::
 
