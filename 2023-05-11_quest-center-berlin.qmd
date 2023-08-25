@@ -251,39 +251,64 @@ execute:
 {{< fa hammer >}} Integration with [GRN](https://reproducibilitynetwork.de/), [Carpentries Incubator](https://carpentries-incubator.org/), etc.?
 :::
 :::
-:::: 
+:::
+
+##  Learning objectives {{< fa bullseye >}}
+
+::: {.incremental style="font-size: 40px;"}
+-   Benefits of version control using Git {{< fa circle-plus >}}
+
+-   Using Git for local version control {{< fa desktop >}}
+
+-   Using remote Git repositories to collaborate  {{< fa cloud >}}
+
+-   Releasing scientific work using Git repositories {{< fa microscope >}}
+:::
 
 ## Course content {.smaller}
 
-:::: columns
-::: {.column width="50%"} 
-#### {{< fa graduation-cap >}} Sessions 
+::: columns
+::: {.column width="50%"}
+#### {{< fa graduation-cap >}} Sessions
+
 ####### 1. Introduction to version control
+
 ::: fragment
 ####### 2. Command line
-
 :::
+
 ::: fragment
 ####### 3. Git Basics
+
 ####### 4. Git Branching and Merging
+
 ####### 5. Collaborative Workflows with Git (GitHub)
 :::
+
 ::: fragment
 ####### 6. Git Workflows
+
 ####### 7. Stashing and Rebasing
+
 ####### 8. Graphical User Interfaces (GUIs)
+
 ####### 9. Project Management and Collaboration Tools
+
 ####### 10. Git Tags and Releases
 :::
+
 ::: fragment
 ####### 11. Submodules and Advanced Topics
+
 ####### 12. DataLad Talk
+
 ####### 13. ???
+
 ####### 14. Cake? {{< fa cake-candles >}}
 :::
 :::
 
-::: {.column width="50%"} 
+::: {.column width="50%"}
 ::: fragment
 #### {{< fa book-open >}} Peek in the Book [Link](https://lennartwittkuhn.com/version-control-book)
 
@@ -292,46 +317,56 @@ execute:
 </iframe>
 :::
 :::
-::::
+:::
+
+::: notes
+one session = mostly one chapter, maybe sometimes 2 -  overall 14 sessions
+
+::: 
+
 
 ## Course content (continued) {.smaller}
 
-:::: columns
-
-::: {.column width="50%"} 
+::: columns
+::: {.column width="50%"}
 #### {{< fa vials >}} Exercises/Quiz
+
 ::: fragment
 ####### 1. Imagine a situation where you've lost a lot off progress on your paper. How can you retrieve the lost content? (Types of version control)
 
-####### 2. Using basic commands to view, move, and rename files, as well as change directories.
+####### 2. Use basic commands to view, move, and rename files, as well as change directories.
 :::
 
 ::: fragment
-####### 3. Install Git, initiate a local folder as a Git repository, stage and commit changes to files, write descriptive commit messages, and create a .gitignore file.
+####### 3. Install Git, Create a Git repository, stage and commit changes to a file and create a .gitignore file.
 
-####### 4. Create, switch, and delete branches, merge branches together, and effectively resolve merge conflict.
+####### 4. Create, switch to, and delete a feature branche, merge branches together, and resolve a merge conflict.
 
-####### 5. Establish the connection between Git and GitHub, upload your repository to GitHub, and effectively pull and push changes to files.
+####### 5. Establish the connection between Git and GitHub, upload your repository to GitHub, and pull and push changes to files.
 :::
 
 ::: fragment
-####### 6. 
+####### 6.
 
-####### 7. Discover how to temporarily stash and retrieve changes to files, and explore the usage of rebase as an alternative to merge.
+####### 7. Temporarily stash and retrieve changes to files, and use rebase as an alternative to merge.
 
-####### 8. Install a graphical user interface (GUI) client like GitHub Desktop or GitKraken, practice partial commits, and  work on a repository as an RStudio project.
+####### 8. Install a graphical user interface (GUI) client like GitHub Desktop or GitKraken, practice partial commits, and work on your repository as an RStudio project.
 
-####### 9. 
-####### 10.
-::: 
+####### 9. Track tasks with issues, propose changes through pull requests, and create comprehensive README.md files. Choose open-source licenses, set contribution guidelines.
+
+####### 10. Create lightweight and annotated tags, manage project versions, and integrate with Zenodo for enhanced archiving.
+:::
+
 ::: fragment
 ####### 11.
+
 ####### 12.
+
 ####### 13.
 :::
 :::
 
-::: {.column width="50%"} 
+::: {.column width="50%"}
 ::: fragment
 #### {{< fa eye >}} Example questions
 
@@ -340,40 +375,31 @@ execute:
 </iframe>
 :::
 :::
-::::
 :::
 
-::::
-
-::: {.notes}
-- Building an educational resource
-- Extend course format to other experience levels (e.g., PhD students) and topics
+::: notes
+Everyone will create a Folder/repo to work on, plus quizzes with FormR, = prüfungsleistung /perfomance assesment needed for uni
 :::
 
 ## Local GRN node in Hamburg?
 
-![from [reproducibilitynetwork.de/members](https://reproducibilitynetwork.de/members/)](static/images/grn-local-nodes-hamburg.png){fig-align="center" width=50%}
+![from [reproducibilitynetwork.de/members](https://reproducibilitynetwork.de/members/)](static/images/grn-local-nodes-hamburg.png){fig-align="center" width="50%"}
 
 ## Thank you!
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="40%"}
-
 #### Funding & Support
 
-![[Digital and Data Literacy in Teaching Lab (DDLitLab), an initiative by the ISA-Zentrum at University of Hamburg](https://www.isa.uni-hamburg.de/en/ddlitlab/data-literacy-lehrlabor.html)](static/images/uhh-logo-print-full.png){fig-align="center" width=100%}
+![[Digital and Data Literacy in Teaching Lab (DDLitLab), an initiative by the ISA-Zentrum at University of Hamburg](https://www.isa.uni-hamburg.de/en/ddlitlab/data-literacy-lehrlabor.html)](static/images/uhh-logo-print-full.png){fig-align="center" width="100%"}
 
-![[Stiftung Innovation in der Hochschullehre](https://stiftung-hochschullehre.de/projekt/ddlitlab/)](static/images/logo-stiftung-hochschullehre.svg){fig-align="center" width=100%}
-
+![[Stiftung Innovation in der Hochschullehre](https://stiftung-hochschullehre.de/projekt/ddlitlab/)](static/images/logo-stiftung-hochschullehre.svg){fig-align="center" width="100%"}
 :::
 
 ::: {.column width="50%"}
-
 #### People
 
-:::: {.columns}
-
+::: columns
 ::: {.column width="45%"}
 ![[Prof. Dr. Nicolas Schuck](https://www.mpib-berlin.mpg.de/staff/nicolas-schuck)</br>(UHH & MPIB)](static/images/photo_schuck_portrait.jpg)
 :::
