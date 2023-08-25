@@ -282,91 +282,10 @@ Instructor-led quiz questions may also be interspersed throughout.
 - Students are from the old MSc program and not necessarily focused on research.
 :::
 
-## Course contents
-
-Present that we are planning to do content-wise
-
-1. Session topic (focus)
-1. Why do we teach about this topic?
-1. Link to chapter in version control book
-1. Which quiz questions, if available
-1. Which exercises, if available
-1. How complete?
-
-Questions:
-
-- Any topics that you are missing?
-- What else would *you* like to learn about?
-
-## Course contents (continued)
-
-#### Session 1: Introduction to version control
-
-- What is version control?
-
-#### Session 2: Command line
-
-## Course evaluation
-
-::: {.fragment}
-#### Background
-- {{< fa clock >}} "Digital Open Science" [@toelch2018]: Version control among *least* implemented practice.<br>
-{{< fa arrow-right >}} Teaching / learning version control takes time and students should engage in hands-on coding assignments
-- {{< fa life-ring >}} Software Carpentries [@wilson2016]: Provide opportunities for repeated practice in a controlled environment
-:::
-
-::: {.fragment}
-#### Scholarship of Teaching
-- {{< fa lightbulb >}} We have a full-semester and dedicate most time to practical implementation!
-- {{< fa circle-question >}} Will this learning setting result in more implementation?
-:::  
-
-::: {.fragment}
-#### Measurements
-- {{< fa laptop-code >}} Record and evaluate responses to quiz questions, implemented in [formR](https://formr.org/) [@arslan2019]<br>
-- {{< fa brands github >}} Assess number of PRs, comments in issues etc. from public repos via GitHub API [cf. @millman2018]
-:::
-
-::: {.fragment}
-#### Open questions and TODOs
-- {{< fa ruler-horizontal >}} Details of the study design (follow-up survey after 1 and 2 years?)<br>
-- {{< fa person-circle-check >}} Ethics proposal for data collection and publication
-:::
-
-## Implementation and tools
-
-{{< fa chalkboard-user >}} **Impulse lectures** & **live demonstrations**
-
-{{< fa code >}} **Code-along** & **exercises** (individual and group)
-
-{{< fa comments >}} **Discussions** on reproducibility, open code & data
-
-{{< fa cloud-arrow-up >}} Fixed computational environments on [JupyterHub](https://jupyter.org/hub) 
-
-{{< fa terminal >}} Focus on **command-line** interaction
-
-{{< fa computer-mouse >}} Alternative use via **Graphical User Interfaces**
-
-{{< fa clipboard-check >}} **Quizzes** & continuous **evaluation** (in [formR](https://formr.org/))
-
-{{< fa recycle >}} Reuse quiz & evaluation data as **example datasets**
-
-{{< fa forward >}} **Follow-up** research projects in summer semester
-
-{{< fa people-carry-box >}} Support by **research** and **teaching assistants**
-
-{{< fa box-open >}} Materials shared as **Open Educational Resources**
-
-{{< fa hammer >}} Integration with [GRN](https://reproducibilitynetwork.de/), [Carpentries Incubator](https://carpentries-incubator.org/), etc.?
-
-::: {.notes}
-- The aim is to build an open, long-lasting educational resource
-- Extend course format to other experience levels (e.g., PhD students) and topics
-:::
-
 ## {{< fa bullseye >}} Learning objectives 
 
-::: {.incremental style="font-size: 40px;"}
+::: {.incremental}
+
 - {{< fa circle-plus >}} Benefits of version control using Git 
 
 -  {{< fa desktop >}} Using Git for local version control 
@@ -374,9 +293,10 @@ Questions:
 -   {{< fa cloud >}} Using remote Git repositories to collaborate  
 
 -  {{< fa microscope >}} Releasing scientific work using Git repositories 
+
 :::
 
-## Course content {.smaller}
+## Course content
 
 ::: columns
 ::: {.column width="50%"}
@@ -437,7 +357,7 @@ one session = mostly one chapter, maybe sometimes 2 -  overall 14 sessions
 ::: 
 
 
-## Course content (continued) {.smaller}
+## Course content (continued)
 
 ::: columns
 ::: {.column width="50%"}
@@ -491,6 +411,64 @@ one session = mostly one chapter, maybe sometimes 2 -  overall 14 sessions
 
 ::: notes
 Everyone will create a Folder/repo to work on, plus quizzes with FormR, = prüfungsleistung /perfomance assesment needed for uni
+:::
+
+## Course evaluation
+
+::: {.fragment}
+#### Background
+- {{< fa clock >}} "Digital Open Science" [@toelch2018]: Version control among *least* implemented practice.<br>
+{{< fa arrow-right >}} Teaching / learning version control takes time and students should engage in hands-on coding assignments
+- {{< fa life-ring >}} Software Carpentries [@wilson2016]: Provide opportunities for repeated practice in a controlled environment
+:::
+
+::: {.fragment}
+#### Scholarship of Teaching
+- {{< fa lightbulb >}} We have a full-semester and dedicate most time to practical implementation!
+- {{< fa circle-question >}} Will this learning setting result in more implementation?
+:::  
+
+::: {.fragment}
+#### Measurements
+- {{< fa laptop-code >}} Record and evaluate responses to quiz questions, implemented in [formR](https://formr.org/) [@arslan2019]<br>
+- {{< fa brands github >}} Assess number of PRs, comments in issues etc. from public repos via GitHub API [cf. @millman2018]
+:::
+
+::: {.fragment}
+#### Open questions and TODOs
+- {{< fa ruler-horizontal >}} Details of the study design (follow-up survey after 1 and 2 years?)<br>
+- {{< fa person-circle-check >}} Ethics proposal for data collection and publication
+:::
+
+## Implementation and tools
+
+{{< fa chalkboard-user >}} **Impulse lectures** & **live demonstrations**
+
+{{< fa code >}} **Code-along** & **exercises** (individual and group)
+
+{{< fa comments >}} **Discussions** on reproducibility, open code & data
+
+{{< fa cloud-arrow-up >}} Fixed computational environments on [JupyterHub](https://jupyter.org/hub) 
+
+{{< fa terminal >}} Focus on **command-line** interaction
+
+{{< fa computer-mouse >}} Alternative use via **Graphical User Interfaces**
+
+{{< fa clipboard-check >}} **Quizzes** & continuous **evaluation** (in [formR](https://formr.org/))
+
+{{< fa recycle >}} Reuse quiz & evaluation data as **example datasets**
+
+{{< fa forward >}} **Follow-up** research projects in summer semester
+
+{{< fa people-carry-box >}} Support by **research** and **teaching assistants**
+
+{{< fa box-open >}} Materials shared as **Open Educational Resources**
+
+{{< fa hammer >}} Integration with [GRN](https://reproducibilitynetwork.de/), [Carpentries Incubator](https://carpentries-incubator.org/), etc.?
+
+::: {.notes}
+- The aim is to build an open, long-lasting educational resource
+- Extend course format to other experience levels (e.g., PhD students) and topics
 :::
 
 ## Thank you!
