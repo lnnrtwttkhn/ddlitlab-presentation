@@ -50,14 +50,15 @@ execute:
 :trackball: **DOI:** [10.5281/zenodo.5012476](http://doi.org/10.5281/zenodo.5012476) (generated using GitHub releases + Zenodo, see details [here](https://guides.github.com/activities/citable-code/))
 -->
 
-:robot: **Source:** Source code is publicly available on GitHub at [github.com/lnnrtwttkhn/ddlitlab-presentation](https://github.com/lnnrtwttkhn/ddlitlab-presentation/)
+{{< fa brands github >}} **Source:** Source code is publicly available on GitHub at [github.com/lnnrtwttkhn/ddlitlab-presentation](https://github.com/lnnrtwttkhn/ddlitlab-presentation/)
 
 {{< fa scale-balanced >}} **License:** Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
 
-:spiral_notepad: **Notes:** Collaborative notes on [HedgeDoc](https://pad.uni-hamburg.de/o3KaCSe5TBSLFvyLYJl1dA?both)
+:spiral_notepad: **Notes:** Please make use of the collaborative notes on [HedgeDoc](https://pad.uni-hamburg.de/o3KaCSe5TBSLFvyLYJl1dA?both)
 
 :pray: **Contact:** We are happy for any feedback or suggestions via [email](mailto:lennart.wittkuhn@uni-hamburg.de) or [GitHub issues](https://github.com/lnnrtwttkhn/ddlitlab-presentation/issues).
 Thank you!
+:::
 
 :::
 
