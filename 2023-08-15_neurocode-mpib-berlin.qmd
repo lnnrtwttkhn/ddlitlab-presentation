@@ -2,8 +2,8 @@
 title: 'A full-semester course on<br>"Version control of code and data"'
 subtitle: |
   Lab Meeting of the Max Planck Research Group "NeuroCode" at the Max Planck Institute for Human Development Berlin and Research Group "Mechanisms of Learning and Change" at University of Hamburg
-author: "Talk by Lennart Wittkuhn & Konrad Pagenstedt</br></br>License: CC BY 4.0"
 date: "2023-08-29"
+author: "Talk by Lennart Wittkuhn & Konrad Pagenstedt</br></br>License: CC BY 4.0"
 from: markdown+emoji
 format:
   revealjs:
