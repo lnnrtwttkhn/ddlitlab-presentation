@@ -8,7 +8,7 @@ from: markdown+emoji
 format:
   revealjs:
     theme: [default, custom.scss]
-    toc: true
+    toc: false
     toc-depth: 2
     toc-title: "Agenda"
     number-sections: false
@@ -50,9 +50,11 @@ execute:
 :trackball: **DOI:** [10.5281/zenodo.5012476](http://doi.org/10.5281/zenodo.5012476) (generated using GitHub releases + Zenodo, see details [here](https://guides.github.com/activities/citable-code/))
 -->
 
-{{< fa brands github >}} **Source:** Source code is publicly available on GitHub at [github.com/lnnrtwttkhn/ddlitlab-presentation](https://github.com/lnnrtwttkhn/ddlitlab-presentation/)
+:robot: **Source:** Source code is publicly available on GitHub at [github.com/lnnrtwttkhn/ddlitlab-presentation](https://github.com/lnnrtwttkhn/ddlitlab-presentation/)
 
 {{< fa scale-balanced >}} **License:** Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
+
+:spiral_notepad: **Notes:** Collaborative notes on [HedgeDoc](https://pad.uni-hamburg.de/o3KaCSe5TBSLFvyLYJl1dA?both)
 
 :pray: **Contact:** We are happy for any feedback or suggestions via [email](mailto:lennart.wittkuhn@uni-hamburg.de) or [GitHub issues](https://github.com/lnnrtwttkhn/ddlitlab-presentation/issues).
 Thank you!
@@ -70,13 +72,20 @@ Thank you!
   - Lennart discovers the [Digital and Data Literacy in Teaching Lab (DDLitLab)](https://www.isa.uni-hamburg.de/ddlitlab.html) funding program :star_struck:
   - Lennart thinks: "Maybe if I can get some money, I can convince people to let me teach Git." :money_mouth_face:
 
+### DDLitLab
+
 :::
 
-## Objectives
+## Questions to the audience
 
 > Nico: "*Before you start, use one slide to clarify your objectives: What's the intended duration? Are you seeking a rigorous critique of your argument or just some final touch-ups? Do you want feedback on details or more on the overarching theme?*"
 
-- What are good exercises for each session?
+- What would you expect from a Git course?
+- Is anything still missing?
+- What do you wish you'd known earlier about Git?
+- If you use Git, how do you use it in your day-to-day work?
+- What are useful exercises for each session?
+- Any comments / ideas on the study design of the course evaluation?
 
 ## How it started ...
 
@@ -218,6 +227,10 @@ Thank you!
 :::
 
 ::::
+
+::: {.fragment}
+Note: We will mainly focus on Git and only refer to DataLad as an outlook.
+:::
 
 ::: {.notes}
 - Version control is relevant for anyone who wants to track the evolution of digital objects
