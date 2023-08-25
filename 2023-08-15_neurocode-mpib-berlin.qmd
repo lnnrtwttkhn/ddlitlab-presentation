@@ -39,8 +39,6 @@ execute:
 
 ::: {.fragment}
 
-### This presentation
-
 :building_construction: **WIP:** The presented teaching project is work in progress!
 
 :computer: **Slides:** Slides are publicly available at [lennartwittkuhn.com/ddlitlab-presentation](https://lennartwittkuhn.com/ddlitlab-presentation/)
@@ -52,6 +50,8 @@ execute:
 -->
 
 {{< fa brands github >}} **Source:** Source code is publicly available on GitHub at [github.com/lnnrtwttkhn/ddlitlab-presentation](https://github.com/lnnrtwttkhn/ddlitlab-presentation/)
+
+{{< fa scale-balanced >}} **License:** Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
 
 :pray: **Contact:** We are happy for any feedback or suggestions via [email](mailto:lennart.wittkuhn@uni-hamburg.de) or [GitHub issues](https://github.com/lnnrtwttkhn/ddlitlab-presentation/issues).
 Thank you!
