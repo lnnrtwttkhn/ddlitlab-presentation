@@ -13,9 +13,10 @@ Source code for slides on the teaching project "Version control of code and data
 This project is funded by the Digital and Data Literacy in Teaching Lab (DDLitLab), an initiative by the ISA-Zentrum at the University of Hamburg.
 The Digital and Data Literacy in Teaching Lab program is in turn funded by the Stiftung Innovation in der Hochschullehre.
 
-## Maintainer
+## Contributors
 
-[Dr. Lennart Wittkuhn](lennart.wittkuhn@uni-hamburg.de)
+- [Lennart Wittkuhn](lennart.wittkuhn@uni-hamburg.de)
+- Konrad Pagenstedt
 
 ## License
 
