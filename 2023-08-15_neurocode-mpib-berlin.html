@@ -10,11 +10,11 @@
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.433">
+  <meta name="generator" content="quarto-1.3.450">
 
-  <meta name="author" content="Talk by Dr.&nbsp;Lennart Wittkuhn &amp; Konrad PagenstedtLicense: CC BY 4.0">
-  <meta name="dcterms.date" content="2023-08-15">
-  <title>A full-semester course on “Version control of code and data using Git and DataLad”</title>
+  <meta name="author" content="Talk by Lennart Wittkuhn &amp; Konrad PagenstedtLicense: CC BY 4.0">
+  <meta name="dcterms.date" content="2023-08-29">
+  <title>A full-semester course on“Version control of code and data”</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -32,7 +32,26 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -331,34 +350,22 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">A full-semester course on “Version control of code and data using Git and DataLad”</h1>
+  <h1 class="title">A full-semester course on<br>“Version control of code and data”</h1>
   <p class="subtitle"></p><p>Lab Meeting of the Max Planck Research Group “NeuroCode” at the Max Planck Institute for Human Development Berlin and Research Group “Mechanisms of Learning and Change” at University of Hamburg</p><p></p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Talk by Dr.&nbsp;Lennart Wittkuhn &amp; Konrad Pagenstedt<br><br>License: CC BY 4.0 
+Talk by Lennart Wittkuhn &amp; Konrad Pagenstedt<br><br>License: CC BY 4.0 
 </div>
 </div>
 </div>
 
-  <p class="date">2023-08-15</p>
+  <p class="date">2023-08-29</p>
 </section>
 <section id="about" class="slide level2">
 <h2>About</h2>
 <div class="fragment">
-<!-- -->
-<h3 id="me">Me</h3>
-<p><span class="emoji" data-emoji="scientist">🧑‍🔬</span> <strong>Position:</strong> PostDoc &amp; Lab Manager at <a href="https://www.psy.uni-hamburg.de/en/arbeitsbereiche/lern-und-veraenderungsmechanismen.html">University of Hamburg</a> &amp; <a href="https://www.mpib-berlin.mpg.de/en">MPI for Human Development Berlin</a></p>
-<p><span class="emoji" data-emoji="mortar_board">🎓</span> <strong>Education:</strong> BSc Psychology &amp; MSc Cognitive Neuroscience (TU Dresden), PhD Psychology (FU Berlin)</p>
-<p><span class="emoji" data-emoji="microscope">🔬</span> <strong>Research:</strong> I study the role of fast neural memory reactivation (“<a href="https://en.wikipedia.org/wiki/Hippocampal_replay">replay</a>”) in the human brain using fMRI</p>
-<p>🕸 <strong>GRN:</strong> Member of the MPIB’s working group on research data management &amp; open science (GRN member)</p>
-<p><span class="emoji" data-emoji="link">🔗</span> <strong>Contact:</strong> You can connect with me via <a href="mailto:wittkuhn@mpib-berlin.mpg.de">email</a>, <a href="https://twitter.com/lnnrtwttkhn">Twitter</a>, <a href="https://fediscience.org/@lnnrtwttkhn">Mastodon</a>, <a href="https://github.com/lnnrtwttkhn">GitHub</a> or <a href="https://www.linkedin.com/in/lennart-wittkuhn-6a079a1a8/">LinkedIn</a></p>
-<p><span class="emoji" data-emoji="information_source">ℹ️</span> <strong>Info:</strong> Find out more about my work on <a href="https://lennartwittkuhn.com/">my website</a>, <a href="https://scholar.google.de/">Google Scholar</a> and <a href="https://orcid.org/0000-0003-2966-6888">ORCiD</a></p>
-</div>
-<div class="fragment">
-<!-- -->
-<h3 id="this-presentation">This presentation</h3>
 <p><span class="emoji" data-emoji="building_construction">🏗️</span> <strong>WIP:</strong> The presented teaching project is work in progress!</p>
 <p><span class="emoji" data-emoji="computer">💻</span> <strong>Slides:</strong> Slides are publicly available at <a href="https://lennartwittkuhn.com/ddlitlab-presentation/">lennartwittkuhn.com/ddlitlab-presentation</a></p>
 <p><span class="emoji" data-emoji="package">📦</span> <strong>Software:</strong> Reproducible slides built with <a href="https://quarto.org/">Quarto</a> and deployed to <a href="https://pages.github.com/">GitHub Pages</a> using <a href="https://github.com/features/actions">GitHub Actions</a></p>
@@ -367,8 +374,118 @@ Talk by Dr.&nbsp;Lennart Wittkuhn &amp; Konrad Pagenstedt<br><br>License: CC BY 
 :trackball: **DOI:** [10.5281/zenodo.5012476](http://doi.org/10.5281/zenodo.5012476) (generated using GitHub releases + Zenodo, see details [here](https://guides.github.com/activities/citable-code/))
 -->
 <p><i class="fa-brands fa-github" aria-label="github"></i> <strong>Source:</strong> Source code is publicly available on GitHub at <a href="https://github.com/lnnrtwttkhn/ddlitlab-presentation/">github.com/lnnrtwttkhn/ddlitlab-presentation</a></p>
-<p><span class="emoji" data-emoji="pray">🙏</span> <strong>Contact:</strong> I am happy for any feedback or suggestions via <a href="mailto:lennart.wittkuhn@uni-hamburg.de">email</a> or <a href="https://github.com/lnnrtwttkhn/ddlitlab-presentation/issues">GitHub issues</a>. Thank you!</p>
+<p><i class="fa-solid fa-scale-balanced" aria-label="scale-balanced"></i> <strong>License:</strong> Creative Commons Attribution 4.0 International (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</p>
+<p><span class="emoji" data-emoji="spiral_notepad">🗒️</span> <strong>Notes:</strong> Please make use of the collaborative notes on <a href="https://pad.uni-hamburg.de/o3KaCSe5TBSLFvyLYJl1dA?both">HedgeDoc</a></p>
+<p><span class="emoji" data-emoji="pray">🙏</span> <strong>Contact:</strong> We are happy for any feedback or suggestions via <a href="mailto:lennart.wittkuhn@uni-hamburg.de">email</a> or <a href="https://github.com/lnnrtwttkhn/ddlitlab-presentation/issues">GitHub issues</a>. Thank you!</p>
 </div>
+</section>
+<section id="agenda" class="slide level2">
+<h2>Agenda</h2>
+<ol type="1">
+<li>Objectives of this talk (Lennart)</li>
+<li>Background &amp; history (Lennart)</li>
+<li>Course overview &amp; resources (Lennart)</li>
+<li>Introduction to version control (Konrad)</li>
+<li>Course structure (Lennart)</li>
+<li>Course contents (Konrad)</li>
+<li>Course evaluation (Lennart)</li>
+</ol>
+</section>
+<section id="objectives-of-this-talk" class="slide level2">
+<h2>Objectives of this talk</h2>
+<blockquote>
+<p>Nico: “<em>Before you start, use one slide to clarify your objectives: What’s the intended duration? Are you seeking a rigorous critique of your argument or just some final touch-ups? Do you want feedback on details or more on the overarching theme?</em>”</p>
+</blockquote>
+<div class="fragment">
+<!-- -->
+<h3 id="general-questions">General questions</h3>
+<ul>
+<li>What would you expect from a Git course?</li>
+<li>Is any topic still missing?</li>
+<li>What do you wish you’d known about Git earlier?</li>
+<li>If you use Git, how do you use it in your day-to-day work?</li>
+<li>What are useful exercises for each session?</li>
+<li>Any comments / ideas on the study design of the course evaluation?</li>
+</ul>
+</div>
+<div class="fragment">
+<!-- -->
+<h3 id="bonus">Bonus</h3>
+<p>We would be super happy about feedback on our materials, especially the <a href="https://lennartwittkuhn.com/version-control-book/">Version Control Book</a> and the <a href="https://lennartwittkuhn.com/version-control-course-uhh-ws23/">course website</a>. Thank you! <span class="emoji" data-emoji="pray">🙏</span></p>
+</div>
+</section>
+<section id="background-history" class="slide level2">
+<h2>Background &amp; History</h2>
+<div>
+<ul>
+<li class="fragment">October 2022: Lennart realizes that he will have to start teaching at UHH next year <span class="emoji" data-emoji="scream">😱</span></li>
+<li class="fragment">Lennart thinks: “Can I teach what I am most excited about?” (Quiz: What is Lennart most excited about?) <span class="emoji" data-emoji="thinking">🤔</span></li>
+<li class="fragment">Lennart discovers the <a href="https://www.isa.uni-hamburg.de/ddlitlab.html">Digital and Data Literacy in Teaching Lab (DDLitLab)</a> funding program <span class="emoji" data-emoji="star_struck">🤩</span></li>
+<li class="fragment">Lennart thinks: “Maybe if I can get some money, I can convince people to let me teach Git.” <span class="emoji" data-emoji="money_mouth_face">🤑</span></li>
+</ul>
+</div>
+<div class="fragment">
+<!-- -->
+<h3 id="digital-and-data-literacy-in-teaching-lab">Digital and Data Literacy in Teaching Lab</h3>
+<blockquote>
+<p>“<em>The Digital and Data Literacy in Teaching Lab (DDLitLab) […] promotes digital teaching innovation related to data literacy education with teaching projects at all faculties and as part of the […] Studium Generale.</em>”</p>
+</blockquote>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h4 id="overview">Overview</h4>
+<ul>
+<li><i class="fa-solid fa-money-bill-1-wave" aria-label="money-bill-1-wave"></i> <strong>Funding:</strong> 50,000 Euro</li>
+<li><i class="fa-solid fa-calendar-days" aria-label="calendar-days"></i> <strong>Period:</strong> 01.04.23 to 31.03.24 (12 months)</li>
+<li><i class="fa-solid fa-people-group" aria-label="people-group"></i> <strong>Community-building</strong> across <a href="https://www.isa.uni-hamburg.de/ddlitlab/data-literacy-lehrlabor/zweite-foerderrunde.html">20 projects</a></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<h4 id="support">Support</h4>
+<ul>
+<li><i class="fa-solid fa-people-carry-box" aria-label="people-carry-box"></i> Support by <strong>research</strong> and <strong>teaching assistants</strong></li>
+<li><i class="fa-solid fa-person-chalkboard" aria-label="person-chalkboard"></i> Support inviting <strong>external speakers</strong></li>
+<li><i class="fa-solid fa-server" aria-label="server"></i> Support with <strong>technical infrastructure</strong>, didactics, …</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="how-it-started" class="slide level2">
+<h2>How it started …</h2>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="fragment quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="static/images/23-06-09-whiteboard-project-overview.jpg"></p>
+<figcaption><a href="https://cloud.uni-hamburg.de/s/Cd6fciKbajxc86E">Lennart’s whiteboard in the beginning of June 2023</a></figcaption>
+</figure>
+</div>
+</div>
+<div class="fragment quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="static/images/pepe-silvia-meme.jpg"></p>
+<figcaption><a href="https://knowyourmeme.com/memes/pepe-silvia">“Pepe Silvia” meme, scene from “It’s Always Sunny In Philadelphia”</a></figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="how-its-going" class="slide level2">
+<h2>How it’s going …</h2>
+<p><i class="fa-solid fa-desktop" aria-label="desktop"></i> <a href="https://lennartwittkuhn.com/ddlitlab/">lennartwittkuhn.com/ddlitlab</a></p>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/ddlitlab/" title="Project Documentation"></iframe>
+</section>
+<section id="resources-course-website" class="slide level2">
+<h2>Resources: Course Website</h2>
+<p><i class="fa-solid fa-desktop" aria-label="desktop"></i> <a href="https://lennartwittkuhn.com/version-control-course-uhh-ws23/">lennartwittkuhn.com/version-control-course-uhh-ws23</a></p>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-course-uhh-ws23/" title="Course Website"></iframe>
+</section>
+<section id="resources-version-control-book" class="slide level2">
+<h2>Resources: Version Control Book</h2>
+<p><i class="fa-solid fa-desktop" aria-label="desktop"></i> <a href="https://lennartwittkuhn.com/version-control-book">lennartwittkuhn.com/version-control-book</a></p>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book" title="Version Control Book"></iframe>
 </section>
 <section id="why-we-need-version-control" class="slide level2">
 <h2>Why we need version control …</h2>
@@ -393,7 +510,7 @@ Talk by Dr.&nbsp;Lennart Wittkuhn &amp; Konrad Pagenstedt<br><br>License: CC BY 
 </div>
 <aside class="notes">
 <ul>
-<li>Version control is relevant for anyone who wants to track the evolution of digital objects</li>
+<li>Version control is relevant for anyone who wants to track the evolution of digital objects.</li>
 </ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -481,6 +598,9 @@ Talk by Dr.&nbsp;Lennart Wittkuhn &amp; Konrad Pagenstedt<br><br>License: CC BY 
 </div>
 </div>
 </div>
+<div class="fragment">
+<p>Note: We will mainly focus on Git and only refer to DataLad as an outlook.</p>
+</div>
 <aside class="notes">
 <ul>
 <li>Version control is relevant for anyone who wants to track the evolution of digital objects</li>
@@ -497,50 +617,218 @@ Talk by Dr.&nbsp;Lennart Wittkuhn &amp; Konrad Pagenstedt<br><br>License: CC BY 
           display:block!important;
       }</style></aside>
 <aside></aside></section>
-<section id="course-details" class="slide level2">
-<h2>Course details</h2>
+<section id="course-structure" class="slide level2">
+<h2>Course structure</h2>
+<div class="fragment">
+<p><strong>Summary:</strong> A hands-on seminar about version control of code and data using Git with curated online materials, interactive discussions, quizzes and exercises, targeted at (aspiring) researchers in Psychology &amp; Neuroscience.</p>
+</div>
+<div class="fragment">
 <div class="columns">
 <div class="column" style="width:50%;">
+<ul>
+<li><i class="fa-solid fa-calendar-days" aria-label="calendar-days"></i> <strong>Date:</strong> Winter semester 2023/24 (Oct to Feb)</li>
+<li><i class="fa-solid fa-clock" aria-label="clock"></i> <strong>Time:</strong> Fridays, 10:15 to 11:45 am (90 minutes)</li>
+<li><i class="fa-solid fa-building-columns" aria-label="building-columns"></i> <strong>Room:</strong> UHH, VMP 5, Room 4047</li>
+<li><i class="fa-solid fa-user-graduate" aria-label="user-graduate"></i> <strong>Program:</strong> MSc Psychology (PO 2014)</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li><i class="fa-solid fa-chalkboard" aria-label="chalkboard"></i> <strong>Events:</strong> 14 seminar sessions</li>
+<li><i class="fa-solid fa-rectangle-list" aria-label="rectangle-list"></i> <strong>Module:</strong> Elective Course</li>
+<li><i class="fa-solid fa-gem" aria-label="gem"></i> <strong>Credits:</strong> 4,0</li>
+<li><i class="fa-solid fa-language" aria-label="language"></i> <strong>Language:</strong> English (German optional)</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="fragment">
+<p><strong>What does the average seminar session look like?</strong></p>
+</div>
+<div>
+<ol type="1">
+<li class="fragment"><p><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Content Review (up to 30 minutes):</strong> <br> Course participants engage with <a href="https://lennartwittkuhn.com/version-control-book/">the online materials</a>, supplemented by concise presentations by the instructors. Some course preparation may occur outside of the class.</p></li>
+<li class="fragment"><p><i class="fa-solid fa-comments" aria-label="comments"></i> <strong>Interactive Discussions &amp; Quizzes (up to 15 minutes):</strong> <br>Course participants collectively address any inquiries related to the session’s content and online materials. Instructor-led quiz questions may also be interspersed throughout.</p></li>
+<li class="fragment"><p><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> <strong>Exercises &amp; Implementation (up to 60 minutes):</strong> <br>Course participants actively delve into hands-on exercises and assignments.</p></li>
+</ol>
+</div>
+<aside class="notes">
+<ul>
+<li>Students are from the old MSc program and not necessarily focused on research.</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="fa-bullseye-learning-objectives" class="slide level2">
+<h2><i class="fa-solid fa-bullseye" aria-label="bullseye"></i> Learning objectives</h2>
+<div>
+<ul>
+<li class="fragment"><i class="fa-solid fa-circle-plus" aria-label="circle-plus"></i> Benefits of version control using Git</li>
+<li class="fragment"><i class="fa-solid fa-desktop" aria-label="desktop"></i> Using Git for local version control</li>
+<li class="fragment"><i class="fa-solid fa-cloud" aria-label="cloud"></i> Using remote Git repositories to collaborate<br>
+</li>
+<li class="fragment"><i class="fa-solid fa-microscope" aria-label="microscope"></i> Releasing scientific work using Git repositories</li>
+</ul>
+</div>
+</section>
+<section id="course-content" class="slide level2">
+<h2>Course content</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h4 id="fa-graduation-cap-sessions"><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i> Sessions</h4>
+<p class="heading" id="introduction-to-version-control">1. Introduction to version control</p>
 <div class="fragment">
 <!-- -->
-<h3 id="overview">Overview</h3>
-<p><i class="fa-solid fa-circle-info" aria-label="circle-info"></i> Full-semester seminar (~ 12 sessions of 90 mins)</p>
-<p><i class="fa-solid fa-calendar-days" aria-label="calendar-days"></i> Winter semester 2023/24 (October to January)</p>
-<p><i class="fa-solid fa-building-columns" aria-label="building-columns"></i> University of Hamburg (virtual option TBD)</p>
-<p><i class="fa-solid fa-user-group" aria-label="user-group"></i> MSc and PhD students (research focus)</p>
-<p><i class="fa-solid fa-brain" aria-label="brain"></i> Psychology and Cognitive Neuroscience</p>
+<p class="heading" id="command-line">2. Command line</p>
 </div>
 <div class="fragment">
 <!-- -->
-<h3 id="milestones">Milestones</h3>
-<p><i class="fa-solid fa-star" aria-label="star"></i> Project received funding!</p>
-<p><i class="fa-solid fa-star" aria-label="star"></i> <a href="https://lennartwittkuhn.com/ddlitlab/">Project website</a> online!</p>
-<p><i class="fa-solid fa-star" aria-label="star"></i> <a href="https://lennartwittkuhn.com/versioncontrol-course-uhh-ws23/">Course website</a> online!</p>
-<p><br></p>
-<p><i class="fa-solid fa-arrow-right" aria-label="arrow-right"></i> Next up: Prepare course!</p>
+<p class="heading" id="git-basics">3. Git Basics</p>
+<p class="heading" id="git-branching-and-merging">4. Git Branching and Merging</p>
+<p class="heading" id="collaborative-workflows-with-git-github">5. Collaborative Workflows with Git (GitHub)</p>
+</div>
+<div class="fragment">
+<!-- -->
+<p class="heading" id="git-workflows">6. Git Workflows</p>
+<p class="heading" id="stashing-and-rebasing">7. Stashing and Rebasing</p>
+<p class="heading" id="graphical-user-interfaces-guis">8. Graphical User Interfaces (GUIs)</p>
+<p class="heading" id="project-management-and-collaboration-tools">9. Project Management and Collaboration Tools</p>
+<p class="heading" id="git-tags-and-releases">10. Git Tags and Releases</p>
+</div>
+<div class="fragment">
+<!-- -->
+<p class="heading" id="submodules-and-advanced-topics">11. Submodules and Advanced Topics</p>
+<p class="heading" id="datalad-talk">12. DataLad Talk</p>
+<p class="heading" id="section">13. ???</p>
+<p class="heading" id="cake-fa-cake-candles">14. Cake? <i class="fa-solid fa-cake-candles" aria-label="cake-candles"></i></p>
 </div>
 </div><div class="column" style="width:50%;">
 <div class="fragment">
 <!-- -->
-<h3 id="implementation-and-tools">Implementation and Tools</h3>
+<h4 id="fa-book-open-peek-in-the-book-link"><i class="fa-solid fa-book-open" aria-label="book-open"></i> Peek in the Book <a href="https://lennartwittkuhn.com/version-control-book">Link</a></h4>
+<iframe src="https://lennartwittkuhn.com/version-control-book/contents.html" width="100%" height="550px">
+</iframe>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>one session = mostly one chapter, maybe sometimes 2 - overall 14 sessions</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="course-tasks" class="slide level2">
+<h2>Course tasks</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h4 id="fa-folder-working-on-a-repository"><i class="fa-solid fa-folder" aria-label="folder"></i> Working on a repository</h4>
+<div class="fragment">
+<!-- -->
+<h4 id="example-task---session-3">Example Task - Session 3:</h4>
+<p>Install Git, Create a Git repository, stage and commit changes to a file and create a .gitignore file.</p>
+</div>
+<div class="fragment">
+<!-- -->
+<h4 id="example-task---session-5">Example Task - Session 5:</h4>
+<p>Establish the connection between Git and GitHub, upload your repository to GitHub, and pull and push changes to files.</p>
+</div>
+<div class="fragment">
+<!-- -->
+<h4 id="example-task---session-9">Example Task - Session 9:</h4>
+<p>Track a task with an issue, propose a change through a pull requests, and create a README.md files. Choose open-source licenses, set contribution guidelines.</p>
+</div>
+</div><div class="column" style="width:50%;">
+<h4 id="quizzes-fa-list-check">Quizzes <i class="fa-solid fa-list-check" aria-label="list-check"></i></h4>
+<div class="fragment">
+<!-- -->
+<h4 id="example-quiz-questions---session-2">Example quiz questions - Session 2:</h4>
+<iframe src="https://psyunihamburg.qualtrics.com/jfe/form/SV_bq1SpKpiRdVYzL8" width="100%" height="550px">
+</iframe>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Everyone will create a Folder/repo to work on, plus quizzes with FormR, = prüfungsleistung /perfomance assesment needed for uni</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="course-evaluation" class="slide level2">
+<h2>Course evaluation</h2>
+<div class="fragment">
+<!-- -->
+<h4 id="background">Background</h4>
+<ul>
+<li><i class="fa-solid fa-clock" aria-label="clock"></i> “Digital Open Science” <span class="citation" data-cites="toelch2018">(<a href="#/references" role="doc-biblioref" onclick="">Toelch and Ostwald 2018</a>)</span>: Version control among <em>least</em> implemented practice.<br> <i class="fa-solid fa-arrow-right" aria-label="arrow-right"></i> Teaching / learning version control takes time and students should engage in hands-on coding assignments</li>
+<li><i class="fa-solid fa-life-ring" aria-label="life-ring"></i> Software Carpentries <span class="citation" data-cites="wilson2016">(<a href="#/references" role="doc-biblioref" onclick="">Wilson 2016</a>)</span>: Provide opportunities for repeated practice in a controlled environment</li>
+</ul>
+</div>
+<div class="fragment">
+<!-- -->
+<h4 id="scholarship-of-teaching">Scholarship of Teaching</h4>
+<ul>
+<li><i class="fa-solid fa-lightbulb" aria-label="lightbulb"></i> We have a full-semester and dedicate most time to practical implementation!</li>
+<li><i class="fa-solid fa-circle-question" aria-label="circle-question"></i> Will this learning setting result in more implementation?</li>
+</ul>
+</div>
+<div class="fragment">
+<!-- -->
+<h4 id="measurements">Measurements</h4>
+<ul>
+<li><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> Record and evaluate responses to quiz questions, implemented in <a href="https://formr.org/">formR</a> <span class="citation" data-cites="arslan2019">(<a href="#/references" role="doc-biblioref" onclick="">Arslan, Walther, and Tata 2019</a>)</span><br></li>
+<li><i class="fa-brands fa-github" aria-label="github"></i> Assess number of PRs, comments in issues etc. from public repos via GitHub API <span class="citation" data-cites="millman2018">(cf. <a href="#/references" role="doc-biblioref" onclick="">Millman et al. 2018</a>)</span></li>
+</ul>
+</div>
+<div class="fragment">
+<!-- -->
+<h4 id="open-questions-and-todos">Open questions and TODOs</h4>
+<ul>
+<li><i class="fa-solid fa-ruler-horizontal" aria-label="ruler-horizontal"></i> Details of the study design (follow-up survey after 1 and 2 years?)<br></li>
+<li><i class="fa-solid fa-person-circle-check" aria-label="person-circle-check"></i> Ethics proposal for data collection and publication</li>
+</ul>
+</div>
+</section>
+<section id="implementation-and-tools" class="slide level2">
+<h2>Implementation and tools</h2>
 <p><i class="fa-solid fa-chalkboard-user" aria-label="chalkboard-user"></i> <strong>Impulse lectures</strong> &amp; <strong>live demonstrations</strong></p>
 <p><i class="fa-solid fa-code" aria-label="code"></i> <strong>Code-along</strong> &amp; <strong>exercises</strong> (individual and group)</p>
 <p><i class="fa-solid fa-comments" aria-label="comments"></i> <strong>Discussions</strong> on reproducibility, open code &amp; data</p>
 <p><i class="fa-solid fa-cloud-arrow-up" aria-label="cloud-arrow-up"></i> Fixed computational environments on <a href="https://jupyter.org/hub">JupyterHub</a></p>
 <p><i class="fa-solid fa-terminal" aria-label="terminal"></i> Focus on <strong>command-line</strong> interaction</p>
 <p><i class="fa-solid fa-computer-mouse" aria-label="computer-mouse"></i> Alternative use via <strong>Graphical User Interfaces</strong></p>
-<p><i class="fa-solid fa-clipboard-check" aria-label="clipboard-check"></i> <strong>Quizzes</strong> &amp; continuous <strong>evaluation</strong> (in <a href="https://shiny.rstudio.com/">R Shiny</a>)</p>
+<p><i class="fa-solid fa-clipboard-check" aria-label="clipboard-check"></i> <strong>Quizzes</strong> &amp; continuous <strong>evaluation</strong> (in <a href="https://formr.org/">formR</a>)</p>
 <p><i class="fa-solid fa-recycle" aria-label="recycle"></i> Reuse quiz &amp; evaluation data as <strong>example datasets</strong></p>
 <p><i class="fa-solid fa-forward" aria-label="forward"></i> <strong>Follow-up</strong> research projects in summer semester</p>
 <p><i class="fa-solid fa-people-carry-box" aria-label="people-carry-box"></i> Support by <strong>research</strong> and <strong>teaching assistants</strong></p>
 <p><i class="fa-solid fa-box-open" aria-label="box-open"></i> Materials shared as <strong>Open Educational Resources</strong></p>
 <p><i class="fa-solid fa-hammer" aria-label="hammer"></i> Integration with <a href="https://reproducibilitynetwork.de/">GRN</a>, <a href="https://carpentries-incubator.org/">Carpentries Incubator</a>, etc.?</p>
-</div>
-</div>
-</div>
 <aside class="notes">
 <ul>
-<li>Building an educational resource</li>
+<li>The aim is to build an open, long-lasting educational resource</li>
 <li>Extend course format to other experience levels (e.g., PhD students) and topics</li>
 </ul>
 <style type="text/css">
@@ -555,10 +843,6 @@ Talk by Dr.&nbsp;Lennart Wittkuhn &amp; Konrad Pagenstedt<br><br>License: CC BY 
           display:block!important;
       }</style></aside>
 </section>
-<section id="local-grn-node-in-hamburg" class="slide level2">
-<h2>Local GRN node in Hamburg?</h2>
-
-<img data-src="static/images/grn-local-nodes-hamburg.png" style="width:50.0%" class="r-stretch quarto-figure-center"><p class="caption">from <a href="https://reproducibilitynetwork.de/members/">reproducibilitynetwork.de/members</a></p></section>
 <section id="thank-you" class="slide level2">
 <h2>Thank you!</h2>
 <div class="columns">
@@ -601,9 +885,26 @@ Talk by Dr.&nbsp;Lennart Wittkuhn &amp; Konrad Pagenstedt<br><br>License: CC BY 
 <p><i class="fa-brands fa-twitter" aria-label="twitter"></i> <a href="https://twitter.com/lnnrtwttkhn">Twitter</a> <i class="fa-brands fa-mastodon" aria-label="mastodon"></i> <a href="https://fediscience.org/@lnnrtwttkhn">Mastodon</a> <i class="fa-brands fa-github" aria-label="github"></i> <a href="https://fediscience.org/@lnnrtwttkhn">GitHub</a> <i class="fa-brands fa-linkedin" aria-label="linkedin"></i> <a href="https://www.linkedin.com/in/lennart-wittkuhn-6a079a1a8/">LinkedIn</a></p>
 </div>
 </div>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-arslan2019" class="csl-entry" role="listitem">
+Arslan, Ruben C., Matthias P. Walther, and Cyril S. Tata. 2019. <span>“Formr: A Study Framework Allowing for Automated Feedback Generation and Complex Longitudinal Experience-Sampling Studies Using R.”</span> <em>Behavior Research Methods</em> 52 (1): 376–87. <a href="https://doi.org/10.3758/s13428-019-01236-y">https://doi.org/10.3758/s13428-019-01236-y</a>.
+</div>
+<div id="ref-millman2018" class="csl-entry" role="listitem">
+Millman, K. Jarrod, Matthew Brett, Ross Barnowski, and Jean-Baptiste Poline. 2018. <span>“Teaching Computational Reproducibility for Neuroimaging.”</span> <em>Frontiers in Neuroscience</em> 12 (October). <a href="https://doi.org/10.3389/fnins.2018.00727">https://doi.org/10.3389/fnins.2018.00727</a>.
+</div>
+<div id="ref-toelch2018" class="csl-entry" role="listitem">
+Toelch, Ulf, and Dirk Ostwald. 2018. <span>“Digital Open Science – Teaching Digital Tools for Reproducible and Transparent Research.”</span> <em>PLOS Biology</em> 16 (7): e2006022. <a href="https://doi.org/10.1371/journal.pbio.2006022">https://doi.org/10.1371/journal.pbio.2006022</a>.
+</div>
+<div id="ref-wilson2016" class="csl-entry" role="listitem">
+Wilson, Greg. 2016. <span>“Software Carpentry: Lessons Learned.”</span> <em>F1000Research</em> 3 (January): 62. <a href="https://doi.org/10.12688/f1000research.3-62.v2">https://doi.org/10.12688/f1000research.3-62.v2</a>.
+</div>
+</div>
 
 <div class="footer footer-default">
-<p>Version control of code and data using Git and DataLad</p>
+<p>Version control of code and data</p>
 </div>
 </section>
 <section id="footnotes" class="footnotes footnotes-end-of-document smaller scrollable" role="doc-endnotes"><h2>Footnotes</h2>
@@ -640,14 +941,14 @@ Talk by Dr.&nbsp;Lennart Wittkuhn &amp; Konrad Pagenstedt<br><br>License: CC BY 
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': true,
+'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'chalkboard': {"buttons":true},
-'smaller': true,
+'smaller': false,
  
         // Display controls in the bottom right corner
         controls: false,
