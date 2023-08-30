@@ -37,7 +37,7 @@ execute:
 {{< fa chalkboard-user >}} **Presenters:** [Dr. Lennart Wittkuhn](https://www.lennartwittkuhn.com/) & Konrad Pagenstedt
 
 ```{=html}
-<iframe width="100%" height="560" src="2023-08-15_neurocode-mpib-berlin.html"></iframe>
+<iframe width="100%" height="560" src="static/images/2023-08-29_neurocode-mpib-berlin_presentation.pdf"></iframe>
 ```
 
 ## QUEST Center
