@@ -1,0 +1,534 @@
+---
+title: 'A full-semester course on<br>"Version control of code and data"'
+subtitle: |
+  Lab Meeting of the Max Planck Research Group "NeuroCode" at the Max Planck Institute for Human Development Berlin and Research Group "Mechanisms of Learning and Change" at University of Hamburg
+date: "2023-08-29"
+author: "Talk by Lennart Wittkuhn & Konrad Pagenstedt</br></br>License: CC BY 4.0"
+from: markdown+emoji
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    toc: false
+    toc-depth: 2
+    toc-title: "Agenda"
+    number-sections: false
+    scrollable: true
+    # logo: static/images/uhh-logo-web.gif
+    footer: "Version control of code and data"
+    transition: none
+    transition-speed: fast
+    slide-number: "c/t"
+    # figures
+    fig-cap-location: bottom
+    # links:
+    link-external-newwindow: true
+    reference-location: document
+    preview-links: false
+    overview: true
+    menu: true
+    chalkboard: true
+    mutliplex: false
+mainfont: Atkinson Hyperlegible
+bibliography: references.bib
+engine: knitr
+execute:
+  eval: false
+  echo: true
+---
+
+## About
+
+::: {.fragment}
+
+:building_construction: **WIP:** The presented teaching project is work in progress!
+
+:computer: **Slides:** Slides are publicly available at [lennartwittkuhn.com/ddlitlab-presentation](https://lennartwittkuhn.com/ddlitlab-presentation/)
+
+:package: **Software:** Reproducible slides built with [Quarto](https://quarto.org/) and deployed to [GitHub Pages](https://pages.github.com/) using [GitHub Actions](https://github.com/features/actions)
+
+<!-- 
+:trackball: **DOI:** [10.5281/zenodo.5012476](http://doi.org/10.5281/zenodo.5012476) (generated using GitHub releases + Zenodo, see details [here](https://guides.github.com/activities/citable-code/))
+-->
+
+{{< fa brands github >}} **Source:** Source code is publicly available on GitHub at [github.com/lnnrtwttkhn/ddlitlab-presentation](https://github.com/lnnrtwttkhn/ddlitlab-presentation/)
+
+{{< fa scale-balanced >}} **License:** Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
+
+:spiral_notepad: **Notes:** Please make use of the collaborative notes on [HedgeDoc](https://pad.uni-hamburg.de/o3KaCSe5TBSLFvyLYJl1dA?both)
+
+:pray: **Contact:** We are happy for any feedback or suggestions via [email](mailto:lennart.wittkuhn@uni-hamburg.de) or [GitHub issues](https://github.com/lnnrtwttkhn/ddlitlab-presentation/issues).
+Thank you!
+:::
+
+## Agenda
+
+1. Objectives of this talk (Lennart)
+1. Background & history (Lennart)
+1. Course overview & resources (Lennart)
+1. Introduction to version control (Konrad)
+1. Course structure (Lennart)
+1. Course contents (Konrad)
+1. Course evaluation (Lennart)
+
+## Objectives of this talk
+
+> Nico: "*Before you start, use one slide to clarify your objectives: What's the intended duration? Are you seeking a rigorous critique of your argument or just some final touch-ups? Do you want feedback on details or more on the overarching theme?*"
+
+::: {.fragment}
+### General questions
+- What would you expect from a Git course?
+- Is any topic still missing?
+- What do you wish you'd known about Git earlier?
+- If you use Git, how do you use it in your day-to-day work?
+- What are useful exercises for each session?
+- Any comments / ideas on the study design of the course evaluation?
+:::
+
+::: {.fragment}
+### Bonus
+
+We would be super happy about feedback on our materials, especially the [Version Control Book](https://lennartwittkuhn.com/version-control-book/) and the [course website](https://lennartwittkuhn.com/version-control-course-uhh-ws23/).
+Thank you! :pray:
+:::
+
+## Background & History
+
+::: {.incremental}
+- October 2022: Lennart realizes that he will have to start teaching at UHH next year :scream:
+- Lennart thinks: "Can I teach what I am most excited about?" (Quiz: What is Lennart most excited about?) :thinking:
+- Lennart discovers the [Digital and Data Literacy in Teaching Lab (DDLitLab)](https://www.isa.uni-hamburg.de/ddlitlab.html) funding program :star_struck:
+- Lennart thinks: "Maybe if I can get some money, I can convince people to let me teach Git." :money_mouth_face:
+:::
+
+::: {.fragment}
+### Digital and Data Literacy in Teaching Lab
+
+> "*The Digital and Data Literacy in Teaching Lab (DDLitLab) [...] promotes digital teaching innovation related to data literacy education with teaching projects at all faculties and as part of the [...] Studium Generale.*"
+
+:::: {.columns}
+::: {.column width="50%"}
+#### Overview
+- {{< fa money-bill-1-wave >}} **Funding:** 50,000 Euro
+- {{< fa calendar-days >}} **Period:** 01.04.23 to 31.03.24 (12 months)
+- {{< fa people-group >}} **Community-building** across [20 projects](https://www.isa.uni-hamburg.de/ddlitlab/data-literacy-lehrlabor/zweite-foerderrunde.html)
+:::
+::: {.column width="50%"}
+#### Support
+- {{< fa people-carry-box >}} Support by **research** and **teaching assistants**
+- {{< fa person-chalkboard >}} Support inviting **external speakers**
+- {{< fa server >}} Support with **technical infrastructure**, didactics, ...
+:::
+::::
+
+:::
+
+## How it started ...
+
+::: {layout-ncol=2}
+::: {.fragment}
+![[Lennart's whiteboard in the beginning of June 2023](https://cloud.uni-hamburg.de/s/Cd6fciKbajxc86E)](static/images/23-06-09-whiteboard-project-overview.jpg)
+:::
+
+::: {.fragment}
+![["Pepe Silvia" meme, scene from "It's Always Sunny In Philadelphia"](https://knowyourmeme.com/memes/pepe-silvia)](static/images/pepe-silvia-meme.jpg)
+:::
+:::
+
+## How it's going ...
+
+{{< fa desktop >}} [lennartwittkuhn.com/ddlitlab](https://lennartwittkuhn.com/ddlitlab/)
+
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/ddlitlab/" title="Project Documentation"></iframe>
+```
+
+## Resources: Course Website
+
+{{< fa desktop >}} [lennartwittkuhn.com/version-control-course-uhh-ws23](https://lennartwittkuhn.com/version-control-course-uhh-ws23/)
+
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-course-uhh-ws23/" title="Course Website"></iframe>
+```
+
+## Resources: Version Control Book
+
+{{< fa desktop >}} [lennartwittkuhn.com/version-control-book](https://lennartwittkuhn.com/version-control-book)
+
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book" title="Version Control Book"></iframe>
+```
+
+## Why we need version control ...
+
+:::: {.columns}
+
+::: {.column width="42%"}
+::: {.fragment}
+... for **code** (text files)
+![](static/images/phd-comic-version-control-code-cropped-upper.gif)
+:::
+::: {.fragment}
+![[&copy; Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd101212s.gif)](static/images/phd-comic-version-control-code-cropped-lower.gif)
+:::
+:::
+
+::: {.column width="58%"}
+::: {.fragment}
+... for **data** (binary files)
+![[&copy; Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd052810s.gif)](static/images/phd-comic-version-control-data.gif)
+:::
+:::
+
+::::
+
+::: {.notes}
+- Version control is relevant for anyone who wants to track the evolution of digital objects.
+:::
+
+## What is version control?
+
+::: {.fragment}
+*"Version control is a systematic approach to record changes made in a [...] set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions later [...]"* ([Turing Way](https://the-turing-way.netlify.app/reproducible-research/vcs.html))
+:::
+
+::::: {.columns}
+
+:::: {.column width="50%"}
+::: {.fragment}
+{{< fa laptop-code >}} keep track of changes in a directory (a "repository")
+
+{{< fa code-commit >}} take snapshots ("commits") of your repo at any time
+
+{{< fa timeline >}} know the history: what was changed when by whom
+
+{{< fa code-compare >}} compare commits and go back to any previous state
+
+{{< fa code-pull-request >}} work on parallel "branches" & flexibly "merge" them
+
+![[by Scriberia for The Turing Way community (CC-BY 4.0)](https://zenodo.org/record/3695300/files/VersionControl.jpg?download=1)](static/images/version-control-turing-way-scriberia.jpg){width=80% fig-align="center"}
+:::
+::::
+
+:::: {.column width="50%"}
+::: {.fragment}
+{{< fa upload >}} "push" your repo to a "remote" location & share it
+
+{{< fa brands github >}} {{< fa brands gitlab >}} share repos on platforms like GitHub or GitLab
+
+{{< fa people-group >}} work together on the same files at the same time
+
+{{< fa pen-to-square >}} others can read, copy, edit and suggest changes
+
+{{< fa box-open >}} make your repo public and openly share your work
+
+![[by Scriberia for The Turing Way community (CC-BY 4.0)](https://zenodo.org/record/3695300/files/FirstPullRequest.jpg?download=1)](static/images/first-pull-request-turing-way-scriberia.jpg){width=84% fig-align="center"}
+:::
+::::
+
+:::::
+
+## What are git and DataLad?
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.fragment}
+![[git-scm.com](https://git-scm.com/)](static/images/git-logo-full.svg){fig-align="center" width=50%}
+
+- most popular version control system
+- free, [open-source](https://github.com/git) command-line tool
+- graphical user interfaces exist, e.g., [GitKraken](https://www.gitkraken.com/)
+- standard tool for most (all?) software developers
+- 100 million [GitHub](https://github.com/) users ^[(Source: [Wikipedia](https://en.wikipedia.org/wiki/GitHub))]
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {.fragment}
+![[datalad.org](https://www.datalad.org/)](static/images/datalad-logo-full.svg){fig-align="center" width=50%}
+
+- "git for (large) data"
+- free, [open-source](https://github.com/datalad/datalad) command-line tool
+- builds on top of [git](https://git-scm.com/) and [git-annex](https://git-annex.branchable.com/)
+- allows to version control arbitrarily large datasets ^[see DataLad dataset of 80TB / 15 million files from the Human Connectome Project (see [details](https://handbook.datalad.org/en/latest/usecases/HCP_dataset.html#usecase-hcp-dataset))]
+- graphical user interface exists: [DataLad Gooey](http://docs.datalad.org/projects/gooey/en/latest/index.html)
+
+:::
+
+:::
+
+::::
+
+::: {.fragment}
+Note: We will mainly focus on Git and only refer to DataLad as an outlook.
+:::
+
+::: {.notes}
+- Version control is relevant for anyone who wants to track the evolution of digital objects
+:::
+
+## Course structure
+
+::: {.fragment}
+**Summary:** A hands-on seminar about version control of code and data using Git with curated online materials, interactive discussions, quizzes and exercises, targeted at (aspiring) researchers in Psychology & Neuroscience.
+:::
+
+::::: {.fragment}
+:::: {.columns}
+::: {.column width="50%"}
+- {{< fa calendar-days >}} **Date:** Winter semester 2023/24 (Oct to Feb)
+- {{< fa clock >}} **Time:** Fridays, 10:15 to 11:45 am (90 minutes)
+- {{< fa building-columns >}} **Room:** UHH, VMP 5, Room 4047
+- {{< fa user-graduate >}} **Program:** MSc Psychology (PO 2014)
+:::
+::: {.column width="50%"}
+- {{< fa chalkboard >}} **Events:** 14 seminar sessions
+- {{< fa rectangle-list >}} **Module:** Elective Course
+- {{< fa gem >}} **Credits:** 4,0
+- {{< fa language >}} **Language:** English (German optional)
+:::
+::::
+:::::
+
+::: {.fragment}
+**What does the average seminar session look like?**
+:::
+
+::: {.incremental}
+
+1. {{< fa book-open >}} **Content Review (up to 30 minutes):**
+<br> Course participants engage with [the online materials](https://lennartwittkuhn.com/version-control-book/), supplemented by concise presentations by the instructors.
+Some course preparation may occur outside of the class.
+   
+2. {{< fa comments >}} **Interactive Discussions & Quizzes (up to 15 minutes):**
+<br>Course participants collectively address any inquiries related to the session's content and online materials.
+Instructor-led quiz questions may also be interspersed throughout.
+
+3. {{< fa laptop-code >}} **Exercises & Implementation (up to 60 minutes):**
+<br>Course participants actively delve into hands-on exercises and assignments.
+
+:::
+
+::: {.notes}
+- Students are from the old MSc program and not necessarily focused on research.
+:::
+
+## {{< fa bullseye >}} Learning objectives 
+
+::: {.incremental}
+
+- {{< fa circle-plus >}} Benefits of version control using Git 
+- {{< fa desktop >}} Using Git for local version control 
+- {{< fa cloud >}} Using remote Git repositories to collaborate  
+- {{< fa microscope >}} Releasing scientific work using Git repositories 
+
+:::
+
+## Course content
+
+::: columns
+::: {.column width="50%"}
+#### {{< fa graduation-cap >}} Sessions
+
+####### 1. Introduction to version control
+
+::: fragment
+####### 2. Command line
+
+:::
+
+::: fragment
+####### 3. Git Basics
+
+####### 4. Git Branching and Merging
+
+####### 5. Collaborative Workflows with Git (GitHub)
+:::
+
+::: fragment
+####### 6. Git Workflows
+
+####### 7. Stashing and Rebasing
+
+####### 8. Graphical User Interfaces (GUIs)
+
+####### 9. Project Management and Collaboration Tools
+
+####### 10. Git Tags and Releases
+:::
+
+::: fragment
+####### 11. Submodules and Advanced Topics
+
+####### 12. DataLad Talk
+
+####### 13. ???
+
+####### 14. Cake? {{< fa cake-candles >}}
+:::
+:::
+
+::: {.column width="50%"}
+::: fragment
+#### {{< fa book-open >}} Peek in the Book [Link](https://lennartwittkuhn.com/version-control-book)
+
+<iframe src="https://lennartwittkuhn.com/version-control-book/contents.html" width="100%" height="550px">
+
+</iframe>
+:::
+:::
+:::
+
+::: notes
+one session = mostly one chapter, maybe sometimes 2 -  overall 14 sessions
+
+::: 
+
+## Course tasks
+
+::: columns
+::: {.column width="50%"}
+#### {{< fa folder >}} Working on a repository
+
+::: fragment
+#### Example Task - Session 3:
+Install Git, Create a Git repository, stage and commit changes to a file and create a .gitignore file.
+:::
+
+::: fragment
+#### Example Task - Session 5:
+Establish the connection between Git and GitHub, upload your repository to GitHub, and pull and push changes to files.
+:::
+
+::: fragment
+#### Example Task - Session 9: 
+Track a task with an issue, propose a change through a pull requests, and create a README.md files. Choose open-source licenses, set contribution guidelines.
+:::
+:::
+
+::: {.column width="50%"}
+#### Quizzes {{< fa list-check >}}
+::: fragment
+#### Example quiz questions - Session 2:
+
+<iframe src="https://psyunihamburg.qualtrics.com/jfe/form/SV_bq1SpKpiRdVYzL8" width="100%" height="550px">
+
+</iframe>
+:::
+:::
+:::
+
+::: notes
+Everyone will create a Folder/repo to work on, plus quizzes with FormR, = prüfungsleistung /perfomance assesment needed for uni
+:::
+
+## Course evaluation
+
+::: {.fragment}
+#### Background
+- {{< fa clock >}} "Digital Open Science" [@toelch2018]: Version control among *least* implemented practice.<br>
+{{< fa arrow-right >}} Teaching / learning version control takes time and students should engage in hands-on coding assignments
+- {{< fa life-ring >}} Software Carpentries [@wilson2016]: Provide opportunities for repeated practice in a controlled environment
+:::
+
+::: {.fragment}
+#### Scholarship of Teaching
+- {{< fa lightbulb >}} We have a full-semester and dedicate most time to practical implementation!
+- {{< fa circle-question >}} Will this learning setting result in more implementation?
+:::  
+
+::: {.fragment}
+#### Measurements
+- {{< fa laptop-code >}} Record and evaluate responses to quiz questions, implemented in [formR](https://formr.org/) [@arslan2019]<br>
+- {{< fa brands github >}} Assess number of PRs, comments in issues etc. from public repos via GitHub API [cf. @millman2018]
+:::
+
+::: {.fragment}
+#### Open questions and TODOs
+- {{< fa ruler-horizontal >}} Details of the study design (follow-up survey after 1 and 2 years?)<br>
+- {{< fa person-circle-check >}} Ethics proposal for data collection and publication
+:::
+
+## Implementation and tools
+
+{{< fa chalkboard-user >}} **Impulse lectures** & **live demonstrations**
+
+{{< fa code >}} **Code-along** & **exercises** (individual and group)
+
+{{< fa comments >}} **Discussions** on reproducibility, open code & data
+
+{{< fa cloud-arrow-up >}} Fixed computational environments on [JupyterHub](https://jupyter.org/hub) 
+
+{{< fa terminal >}} Focus on **command-line** interaction
+
+{{< fa computer-mouse >}} Alternative use via **Graphical User Interfaces**
+
+{{< fa clipboard-check >}} **Quizzes** & continuous **evaluation** (in [formR](https://formr.org/))
+
+{{< fa recycle >}} Reuse quiz & evaluation data as **example datasets**
+
+{{< fa forward >}} **Follow-up** research projects in summer semester
+
+{{< fa people-carry-box >}} Support by **research** and **teaching assistants**
+
+{{< fa box-open >}} Materials shared as **Open Educational Resources**
+
+{{< fa hammer >}} Integration with [GRN](https://reproducibilitynetwork.de/), [Carpentries Incubator](https://carpentries-incubator.org/), etc.?
+
+::: {.notes}
+- The aim is to build an open, long-lasting educational resource
+- Extend course format to other experience levels (e.g., PhD students) and topics
+:::
+
+## Thank you!
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+#### Funding & Support
+
+![[Digital and Data Literacy in Teaching Lab (DDLitLab), an initiative by the ISA-Zentrum at University of Hamburg](https://www.isa.uni-hamburg.de/en/ddlitlab/data-literacy-lehrlabor.html)](static/images/uhh-logo-print-full.png){fig-align="center" width=100%}
+
+![[Stiftung Innovation in der Hochschullehre](https://stiftung-hochschullehre.de/projekt/ddlitlab/)](static/images/logo-stiftung-hochschullehre.svg){fig-align="center" width=100%}
+
+:::
+
+::: {.column width="50%"}
+
+#### People
+
+:::: {.columns}
+
+::: {.column width="45%"}
+![[Prof. Dr. Nicolas Schuck](https://www.mpib-berlin.mpg.de/staff/nicolas-schuck)</br>(UHH & MPIB)](static/images/photo_schuck_portrait.jpg)
+:::
+
+::: {.column width="45%"}
+![[Carolin Scharfenberg](https://www.isa.uni-hamburg.de/ddlitlab/team/scharfenberg-carolin.html)</br>(UHH DDLitLab)](static/images/photo_scharfenberg_portrait.jpg)
+:::
+::::
+
+#### Contact
+
+{{< fa envelope >}} [lennart.wittkuhn@uni-hamburg.de](mailto:lennart.wittkuhn@uni-hamburg.de)
+
+{{< fa home-user >}} [lennartwittkuhn.com](https://lennartwittkuhn.com/)
+
+{{< fa brands twitter >}} [Twitter](https://twitter.com/lnnrtwttkhn)
+{{< fa brands mastodon >}} [Mastodon](https://fediscience.org/@lnnrtwttkhn)
+{{< fa brands github >}} [GitHub](https://fediscience.org/@lnnrtwttkhn)
+{{< fa brands linkedin >}} [LinkedIn](https://www.linkedin.com/in/lennart-wittkuhn-6a079a1a8/)
+
+:::
+
+::::
+
+## References
+
+::: {#refs}
+:::
