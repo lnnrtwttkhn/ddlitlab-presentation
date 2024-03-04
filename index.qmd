@@ -37,6 +37,11 @@ execute:
 
 ### One Minute Pitch
 
+```{=html}
+<iframe width="100%" height="560" src="texts/2024.03.06_ddlitlab_pitch.qmd"></iframe>
+```
+
+
 ## MPRG NeuroCode
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8300151.svg)](https://doi.org/10.5281/zenodo.8300151)

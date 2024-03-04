@@ -1,0 +1,11 @@
+So many phd students and researchers struggle with organizing their analysis code, doesn´t matter if it is written in R, Python, Matlab or in which language.
+A lot of scientists do not have a good solution to recover older versions and collaborate efficiently with others.
+Even though there is a very good solution to manage code,the tool Git,  which is the goldstandard in the computer science industry and has been for many years,.
+As sciences like psychology get more and more intertwined with informatics we need to teach effictive mangement of code to the researchers of the futures.
+Thats why we organized this course: "Version control of Code and Data" last semester in the new psychology research master. 
+We created an online guide to teach Git from scratch to students who don´t have previous knowledge of computer science and are not in the typical target group of Git
+To lead by example, we used GitHub to share our learning materials, including our guide, our slides and quizzes,
+That means everybody can use them and we hope the guide will be a "living ressources" with people adding content.
+
+We got great feedback by our students and are happy to say that the course will be repeated next semester!
+
