@@ -26,6 +26,17 @@ execute:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7926691.svg)](https://doi.org/10.5281/zenodo.7926691)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
+## DDLitLab Lehrlabor Abschlussveranstaltung
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+{{< fa calendar-check >}} **Event:** Festive closing event of the seconf funding round of the DDLitLab (presented in person in Hamburg)</br>
+{{< fa map-pin >}} **Venue:** [DDLitLab](https://www.isa.uni-hamburg.de/ddlitlab.html) at Universität Hamburg</br>
+{{< fa clock >}} **Date:** 2024-03-06</br>
+{{< fa chalkboard-user >}} **Presenter:** [Dr. Lennart Wittkuhn](https://www.lennartwittkuhn.com/)
+
+### Poster
+
+### One Minute Pitch
+
 ## MPRG NeuroCode
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8300151.svg)](https://doi.org/10.5281/zenodo.8300151)
@@ -53,3 +64,5 @@ execute:
 ```{=html}
 <iframe width="100%" height="560" src="static/images/2023-05-11_quest-center-berlin_presentation.pdf"></iframe>
 ```
+
+
