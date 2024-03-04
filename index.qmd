@@ -29,7 +29,7 @@ execute:
 ## DDLitLab Lehrlabor Abschlussveranstaltung
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 {{< fa calendar-check >}} **Event:** Festive closing event of the seconf funding round of the DDLitLab (presented in person in Hamburg)</br>
-{{< fa map-pin >}} **Venue:** [DDLitLab](https://www.isa.uni-hamburg.de/ddlitlab.html) at Universität Hamburg</br>
+{{< fa map-pin >}} **Venue:** [DDLitLab](https://www.isa.uni-hamburg.de/ddlitlab.html) at University of Hamburg</br>
 {{< fa clock >}} **Date:** 2024-03-06</br>
 {{< fa chalkboard-user >}} **Presenter:** [Dr. Lennart Wittkuhn](https://www.lennartwittkuhn.com/)
 
