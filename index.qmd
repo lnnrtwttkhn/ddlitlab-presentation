@@ -26,6 +26,19 @@ execute:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7926691.svg)](https://doi.org/10.5281/zenodo.7926691)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
+## PuG 2024
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+{{< fa calendar-check >}} **Event:** [49th Annual Conference "Psychology and Brain"](https://pug2024.de/index-en.html) of University of Hamburg, in cooperation with the [Division of Biological Psychology and Neuropsychology of the German Psychological Society (DGPs)](https://www.dgps.de/fachgruppen/fgbi/) and the [German Society for Psychophysiology and its Application (DPGA)](https://www.dgpa.de) </br>
+{{< fa map-pin >}} **Venue:** [49th Annual Conference "Psychology and Brain"](https://pug2024.de/index-en.html) at the Bürgerhaus Wilhemsburg, Hamburg </br>
+{{< fa clock >}} **Date:** 2024-05-29 - 2024-06.01 </br>
+{{< fa chalkboard-user >}} **Presenters:** [Dr. Lennart Wittkuhn](https://www.lennartwittkuhn.com/) & Konrad Pagenstedt
+
+### Abstract
+
+### Poster
+
 ## MPRG NeuroCode
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8300151.svg)](https://doi.org/10.5281/zenodo.8300151)
