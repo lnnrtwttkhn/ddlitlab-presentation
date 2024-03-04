@@ -37,6 +37,10 @@ execute:
 
 ### Abstract
 
+```{=html}
+<iframe width="100%" height="560" src="texts/2024-05-29_pug_abstract.qmd"></iframe>
+```
+
 ### Poster
 
 ## MPRG NeuroCode
