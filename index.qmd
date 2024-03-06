@@ -21,7 +21,6 @@ execute:
   echo: true
 ---
 
-
 [![Quarto Publish](https://github.com/lnnrtwttkhn/ddlitlab-presentation/actions/workflows/publish.yml/badge.svg)](https://github.com/lnnrtwttkhn/ddlitlab-presentation/actions/workflows/publish.yml)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7926691.svg)](https://doi.org/10.5281/zenodo.7926691)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
@@ -47,6 +46,17 @@ execute:
 ```{=html}
 <iframe width="100%" height="480" src="static/images/2024-03-06_ddlitlab-hamburg-teaser.pdf"></iframe>
 ```
+
+- Wir kennen vermutlich alle das "Final".doc Problem
+- Und haben erlebt, wie leicht es zu Chaos führen kann
+- Texte, Code und Daten auf unseren Computern verändern sich ständig, oft in Zusammenarbeit mit anderen
+- Was brauchen wir also?
+- Wir wollen wissen, wer, wie was, wieso weshalb warum und wann in *einer* Datei über die Zeit verändert hat
+- Wir wollen an parallelen Versionen arbeiten und flexibel miteinander integrieren
+- Und wir wollen das ganze kollaborativ, transparent und reproduzierbar gestalten
+- Wir brauchen also ein Versionskontrollsystem.
+- In unserem Lehrprojekt haben wir Studierenden Git beigebracht, das wohl bekannteste Versionskontrollsystem und ein Standardtool in der Softwareentwicklung
+- Wer mehr erfahren will, wie wir das gemacht haben und dabei u.a. ein 180-seitigen Online-Guide geschrieben haben, kommt zu unserem blauen Poster da drüben
 
 ## MPRG NeuroCode
 
