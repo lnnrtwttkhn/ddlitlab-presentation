@@ -26,6 +26,28 @@ execute:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7926691.svg)](https://doi.org/10.5281/zenodo.7926691)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
+## Digital and Data Literacy in Teaching Lab (DDLitLab)
+
+[![DOI](https://www.fdr.uni-hamburg.de/badge/DOI/10.25592/uhhfdm.14162.svg)](https://doi.org/10.25592/uhhfdm.14162)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+{{< fa calendar-check >}} **Event:** Closing event of the second funding round of the Digital and Data Literacy in Teaching Lab ([DDLitLab](https://www.isa.uni-hamburg.de/ddlitlab.html)) program (presented in person in Hamburg, Germany)</br>
+{{< fa map-pin >}} **Venue:** [DDLitLab](https://www.isa.uni-hamburg.de/ddlitlab.html) at University of Hamburg</br>
+{{< fa clock >}} **Date:** 2024-03-06</br>
+{{< fa chalkboard-user >}} **Presenters:** [Dr. Lennart Wittkuhn](https://www.lennartwittkuhn.com/) & Konrad Pagenstedt
+
+### Poster
+
+```{=html}
+<iframe width="100%" height="1130" src="static/images/2024-03-06_ddlitlab-hamburg-poster.pdf"></iframe>
+```
+
+### One Minute Pitch
+
+```{=html}
+<iframe width="100%" height="480" src="static/images/2024-03-06_ddlitlab-hamburg-teaser.pdf"></iframe>
+```
+
 ## MPRG NeuroCode
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8300151.svg)](https://doi.org/10.5281/zenodo.8300151)
@@ -53,3 +75,5 @@ execute:
 ```{=html}
 <iframe width="100%" height="560" src="static/images/2023-05-11_quest-center-berlin_presentation.pdf"></iframe>
 ```
+
+
