@@ -1,10 +1,10 @@
-In the age of digital and data-driven science, systematic documentation and tracking of the evolution of digital objects like programming code and data are crucial for reproducible research and effective collaboration, especially in light of a reproducibility crisis in many scientific disciplines, including Psychology.
-Still, chaotic and unreliable workflows are frequent in science, often reflecting a lack of systematic training in tools and practices from software engineering that provide established solutions for effective collaborative work.
-Addressing these challenges, we developed the full-semester course "Version Control of Code and Data: An introduction to Git and DataLad for psychological research", as part of the Psychology M.Sc. program at the University of Hamburg.
-Central to the course was the development of a dynamic open-source online learning resource, the "Version Control Book," which covers essential aspects of version control in scientific settings.
-Complementing this resource, we created quizzes and exercises and shared all course materials via GitHub repositories, contributing to the pool of open educational resources available to the academic community.
-In the first iteration of the course, six M.Sc. and Ph.D. students successfully learned from the online course book and applied their knowledge in hands-on examples and quizzes.
-Student's feedback was overwhelmingly positive and we received four nominations for the Teaching Award of the University of Hamburg, indicating a successful learning experience. 
-As a result, the course is scheduled to be repeated in future semesters. 
-Finally, we've established an ongoing commitment to continuously develop our online resources as open-source projects.
+In the age of digital and data-driven science, systematic tracking of the evolution of digital objects like code and data is essential for reproducible research and effective collaboration, crucially addressing the reproducibility crisis prevalent in fields such as Psychology.
+Still, chaotic workflows are frequent in science, reflecting a lack of training in tools and practices from software engineering that provide established solutions for collaborative digital work.
+Addressing these challenges, we introduced the full-semester course "Version Control of Code and Data: An introduction to Git and DataLad for psychological research", in the Psychology M.Sc. program at the University of Hamburg.
+At the heart of this course is the "Version Control Book", a dynamic open-source online learning resource that covers essential concepts of version control in scientific settings.
+Complementing this resource, we created quizzes and exercises, and shared all materials on GitHub, contributing to the pool of open educational resources.
+In the first iteration of the course, six M.Sc. and Ph.D. students effectively used the online book and successfully engaged in hands-on exercises and quizzes.
+Feedback from students was overwhelmingly positive, resulting in four nominations for the University of Hamburg's Teaching Award, underscoring a successful learning experience. 
+As a result, the course is scheduled to be repeated in future semesters.
+Finally, we are committed to continually improving our online resources as open-source projects.
 Together, our open educational resources contribute to training researchers essential skills in tracking, organizing and sharing their work, thereby contributing to more open, reproducible and effective science. 
