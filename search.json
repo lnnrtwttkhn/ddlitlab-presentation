@@ -1,10 +1,66 @@
 [
   {
+    "objectID": "2023-05-11_quest-center-berlin.html#about",
+    "href": "2023-05-11_quest-center-berlin.html#about",
+    "title": "A full-semester course on “Version control of code and data using Git and DataLad”",
+    "section": "About",
+    "text": "About\n\n\nMe\n🧑‍🔬 Position: PostDoc & Lab Manager at University of Hamburg & MPI for Human Development Berlin\n🎓 Education: BSc Psychology & MSc Cognitive Neuroscience (TU Dresden), PhD Psychology (FU Berlin)\n🔬 Research: I study the role of fast neural memory reactivation (“replay”) in the human brain using fMRI\n🕸 GRN: Member of the MPIB’s working group on research data management & open science (GRN member)\n🔗 Contact: You can connect with me via email, Twitter, Mastodon, GitHub or LinkedIn\nℹ️ Info: Find out more about my work on my website, Google Scholar and ORCiD\n\n\n\nThis presentation\n🏗️ WIP: The presented teaching project is work in progress!\n💻 Slides: Slides are publicly available at lennartwittkuhn.com/ddlitlab-presentation\n📦 Software: Reproducible slides built with Quarto and deployed to GitHub Pages using GitHub Actions\n\n Source: Source code is publicly available on GitHub at github.com/lnnrtwttkhn/ddlitlab-presentation\n🙏 Contact: I am happy for any feedback or suggestions via email or GitHub issues. Thank you!"
+  },
+  {
+    "objectID": "2023-05-11_quest-center-berlin.html#why-we-need-version-control",
+    "href": "2023-05-11_quest-center-berlin.html#why-we-need-version-control",
+    "title": "A full-semester course on “Version control of code and data using Git and DataLad”",
+    "section": "Why we need version control …",
+    "text": "Why we need version control …\n\n\n\n… for code (text files) \n\n\n\n\n\n© Jorge Cham (phdcomics.com)\n\n\n\n\n\n… for data (binary files) \n\n\n\n\n\nVersion control is relevant for anyone who wants to track the evolution of digital objects"
+  },
+  {
+    "objectID": "2023-05-11_quest-center-berlin.html#what-is-version-control",
+    "href": "2023-05-11_quest-center-berlin.html#what-is-version-control",
+    "title": "A full-semester course on “Version control of code and data using Git and DataLad”",
+    "section": "What is version control?",
+    "text": "What is version control?\n\n“Version control is a systematic approach to record changes made in a […] set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions later […]” (Turing Way)\n\n\n\n\n keep track of changes in a directory (a “repository”)\n take snapshots (“commits”) of your repo at any time\n know the history: what was changed when by whom\n compare commits and go back to any previous state\n work on parallel “branches” & flexibly “merge” them\n\n\n\nby Scriberia for The Turing Way community (CC-BY 4.0)\n\n\n\n\n\n “push” your repo to a “remote” location & share it\n  share repos on platforms like GitHub or GitLab\n work together on the same files at the same time\n others can read, copy, edit and suggest changes\n make your repo public and openly share your work\n\n\n\nby Scriberia for The Turing Way community (CC-BY 4.0)"
+  },
+  {
+    "objectID": "2023-05-11_quest-center-berlin.html#what-are-git-and-datalad",
+    "href": "2023-05-11_quest-center-berlin.html#what-are-git-and-datalad",
+    "title": "A full-semester course on “Version control of code and data using Git and DataLad”",
+    "section": "What are git and DataLad?",
+    "text": "What are git and DataLad?\n\n\n\n\n\n\ngit-scm.com\n\n\n\nmost popular version control system\nfree, open-source command-line tool\ngraphical user interfaces exist, e.g., GitKraken\nstandard tool for most (all?) software developers\n100 million GitHub users 1\n\n\n\n\n\n\n\ndatalad.org\n\n\n\n“git for (large) data”\nfree, open-source command-line tool\nbuilds on top of git and git-annex\nallows to version control arbitrarily large datasets 2\ngraphical user interface exists: DataLad Gooey\n\n\n\n\n\n\nVersion control is relevant for anyone who wants to track the evolution of digital objects"
+  },
+  {
+    "objectID": "2023-05-11_quest-center-berlin.html#course-details",
+    "href": "2023-05-11_quest-center-berlin.html#course-details",
+    "title": "A full-semester course on “Version control of code and data using Git and DataLad”",
+    "section": "Course details",
+    "text": "Course details\n\n\n\n\nOverview\n Full-semester seminar (~ 12 sessions of 90 mins)\n Winter semester 2023/24 (October to January)\n University of Hamburg (virtual option TBD)\n MSc and PhD students (research focus)\n Psychology and Cognitive Neuroscience\n\n\n\nMilestones\n Project received funding!\n Project website online!\n Course website online!\n\n Next up: Prepare course!\n\n\n\n\nImplementation and Tools\n Impulse lectures & live demonstrations\n Code-along & exercises (individual and group)\n Discussions on reproducibility, open code & data\n Fixed computational environments on JupyterHub\n Focus on command-line interaction\n Alternative use via Graphical User Interfaces\n Quizzes & continuous evaluation (in R Shiny)\n Reuse quiz & evaluation data as example datasets\n Follow-up research projects in summer semester\n Support by research and teaching assistants\n Materials shared as Open Educational Resources\n Integration with GRN, Carpentries Incubator, etc.?\n\n\n\n\n\nBuilding an educational resource\nExtend course format to other experience levels (e.g., PhD students) and topics"
+  },
+  {
+    "objectID": "2023-05-11_quest-center-berlin.html#local-grn-node-in-hamburg",
+    "href": "2023-05-11_quest-center-berlin.html#local-grn-node-in-hamburg",
+    "title": "A full-semester course on “Version control of code and data using Git and DataLad”",
+    "section": "Local GRN node in Hamburg?",
+    "text": "Local GRN node in Hamburg?\n\nfrom reproducibilitynetwork.de/members"
+  },
+  {
+    "objectID": "2023-05-11_quest-center-berlin.html#thank-you",
+    "href": "2023-05-11_quest-center-berlin.html#thank-you",
+    "title": "A full-semester course on “Version control of code and data using Git and DataLad”",
+    "section": "Thank you!",
+    "text": "Thank you!\n\n\nFunding & Support\n\n\n\nDigital and Data Literacy in Teaching Lab (DDLitLab), an initiative by the ISA-Zentrum at University of Hamburg\n\n\n\n\n\nStiftung Innovation in der Hochschullehre\n\n\n\nPeople\n\n\n\n\n\nProf. Dr. Nicolas Schuck(UHH & MPIB)\n\n\n\n\n\n\nCarolin Scharfenberg(UHH DDLitLab)\n\n\n\n\nContact\n lennart.wittkuhn@uni-hamburg.de\n lennartwittkuhn.com\n Twitter  Mastodon  GitHub  LinkedIn\n\n\n\n\n\nVersion control of code and data using Git and DataLad"
+  },
+  {
+    "objectID": "2023-05-11_quest-center-berlin.html#footnotes",
+    "href": "2023-05-11_quest-center-berlin.html#footnotes",
+    "title": "A full-semester course on “Version control of code and data using Git and DataLad”",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\n(Source: Wikipedia)\nsee DataLad dataset of 80TB / 15 million files from the Human Connectome Project (see details)"
+  },
+  {
     "objectID": "2023-08-15_neurocode-mpib-berlin.html#about",
     "href": "2023-08-15_neurocode-mpib-berlin.html#about",
     "title": "A full-semester course on“Version control of code and data”",
     "section": "About",
-    "text": "About\n\n🏗️ WIP: The presented teaching project is work in progress!\n💻 Slides: Slides are publicly available at lennartwittkuhn.com/ddlitlab-presentation\n📦 Software: Reproducible slides built with Quarto and deployed to GitHub Pages using GitHub Actions\n\n\n Source: Source code is publicly available on GitHub at github.com/lnnrtwttkhn/ddlitlab-presentation\n License: Creative Commons Attribution 4.0 International (CC BY 4.0)\n🗒️ Notes: Please make use of the collaborative notes on HedgeDoc\n🙏 Contact: We are happy for any feedback or suggestions via email or GitHub issues. Thank you!"
+    "text": "About\n\n🏗️ WIP: The presented teaching project is work in progress!\n💻 Slides: Slides are publicly available at lennartwittkuhn.com/ddlitlab-presentation\n📦 Software: Reproducible slides built with Quarto and deployed to GitHub Pages using GitHub Actions\n\n Source: Source code is publicly available on GitHub at github.com/lnnrtwttkhn/ddlitlab-presentation\n License: Creative Commons Attribution 4.0 International (CC BY 4.0)\n🗒️ Notes: Please make use of the collaborative notes on HedgeDoc\n🙏 Contact: We are happy for any feedback or suggestions via email or GitHub issues. Thank you!"
   },
   {
     "objectID": "2023-08-15_neurocode-mpib-berlin.html#agenda",
@@ -84,8 +140,8 @@
     "text": "Course structure\n\nSummary: A hands-on seminar about version control of code and data using Git with curated online materials, interactive discussions, quizzes and exercises, targeted at (aspiring) researchers in Psychology & Neuroscience.\n\n\n\n\n\n Date: Winter semester 2023/24 (Oct to Feb)\n Time: Fridays, 10:15 to 11:45 am (90 minutes)\n Room: UHH, VMP 5, Room 4047\n Program: MSc Psychology (PO 2014)\n\n\n\n Events: 14 seminar sessions\n Module: Elective Course\n Credits: 4,0\n Language: English (German optional)\n\n\n\n\n\nWhat does the average seminar session look like?\n\n\n\n Content Review (up to 30 minutes):  Course participants engage with the online materials, supplemented by concise presentations by the instructors. Some course preparation may occur outside of the class.\n Interactive Discussions & Quizzes (up to 15 minutes): Course participants collectively address any inquiries related to the session’s content and online materials. Instructor-led quiz questions may also be interspersed throughout.\n Exercises & Implementation (up to 60 minutes): Course participants actively delve into hands-on exercises and assignments.\n\n\n\n\nStudents are from the old MSc program and not necessarily focused on research."
   },
   {
-    "objectID": "2023-08-15_neurocode-mpib-berlin.html#fa-bullseye-learning-objectives",
-    "href": "2023-08-15_neurocode-mpib-berlin.html#fa-bullseye-learning-objectives",
+    "objectID": "2023-08-15_neurocode-mpib-berlin.html#learning-objectives",
+    "href": "2023-08-15_neurocode-mpib-berlin.html#learning-objectives",
     "title": "A full-semester course on“Version control of code and data”",
     "section": " Learning objectives",
     "text": "Learning objectives\n\n\n Benefits of version control using Git\n Using Git for local version control\n Using remote Git repositories to collaborate\n\n Releasing scientific work using Git repositories"
@@ -130,68 +186,12 @@
     "href": "2023-08-15_neurocode-mpib-berlin.html#references",
     "title": "A full-semester course on“Version control of code and data”",
     "section": "References",
-    "text": "References\n\n\nArslan, Ruben C., Matthias P. Walther, and Cyril S. Tata. 2019. “Formr: A Study Framework Allowing for Automated Feedback Generation and Complex Longitudinal Experience-Sampling Studies Using R.” Behavior Research Methods 52 (1): 376–87. https://doi.org/10.3758/s13428-019-01236-y.\n\n\nMillman, K. Jarrod, Matthew Brett, Ross Barnowski, and Jean-Baptiste Poline. 2018. “Teaching Computational Reproducibility for Neuroimaging.” Frontiers in Neuroscience 12 (October). https://doi.org/10.3389/fnins.2018.00727.\n\n\nToelch, Ulf, and Dirk Ostwald. 2018. “Digital Open Science – Teaching Digital Tools for Reproducible and Transparent Research.” PLOS Biology 16 (7): e2006022. https://doi.org/10.1371/journal.pbio.2006022.\n\n\nWilson, Greg. 2016. “Software Carpentry: Lessons Learned.” F1000Research 3 (January): 62. https://doi.org/10.12688/f1000research.3-62.v2.\n\n\n\n\nVersion control of code and data"
+    "text": "References\n\n\nArslan, Ruben C., Matthias P. Walther, and Cyril S. Tata. 2019. “Formr: A Study Framework Allowing for Automated Feedback Generation and Complex Longitudinal Experience-Sampling Studies Using R.” Behavior Research Methods 52 (1): 376–87. https://doi.org/10.3758/s13428-019-01236-y.\n\n\nMillman, K. Jarrod, Matthew Brett, Ross Barnowski, and Jean-Baptiste Poline. 2018. “Teaching Computational Reproducibility for Neuroimaging.” Frontiers in Neuroscience 12 (October). https://doi.org/10.3389/fnins.2018.00727.\n\n\nToelch, Ulf, and Dirk Ostwald. 2018. “Digital Open Science – Teaching Digital Tools for Reproducible and Transparent Research.” PLOS Biology 16 (7): e2006022. https://doi.org/10.1371/journal.pbio.2006022.\n\n\nWilson, Greg. 2016. “Software Carpentry: Lessons Learned.” F1000Research 3 (January): 62. https://doi.org/10.12688/f1000research.3-62.v2.\n\n\n\n\n\nVersion control of code and data"
   },
   {
     "objectID": "2023-08-15_neurocode-mpib-berlin.html#footnotes",
     "href": "2023-08-15_neurocode-mpib-berlin.html#footnotes",
     "title": "A full-semester course on“Version control of code and data”",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\n(Source: Wikipedia)\nsee DataLad dataset of 80TB / 15 million files from the Human Connectome Project (see details)"
-  },
-  {
-    "objectID": "2023-05-11_quest-center-berlin.html#about",
-    "href": "2023-05-11_quest-center-berlin.html#about",
-    "title": "A full-semester course on “Version control of code and data using Git and DataLad”",
-    "section": "About",
-    "text": "About\n\n\nMe\n🧑‍🔬 Position: PostDoc & Lab Manager at University of Hamburg & MPI for Human Development Berlin\n🎓 Education: BSc Psychology & MSc Cognitive Neuroscience (TU Dresden), PhD Psychology (FU Berlin)\n🔬 Research: I study the role of fast neural memory reactivation (“replay”) in the human brain using fMRI\n🕸 GRN: Member of the MPIB’s working group on research data management & open science (GRN member)\n🔗 Contact: You can connect with me via email, Twitter, Mastodon, GitHub or LinkedIn\nℹ️ Info: Find out more about my work on my website, Google Scholar and ORCiD\n\n\n\nThis presentation\n🏗️ WIP: The presented teaching project is work in progress!\n💻 Slides: Slides are publicly available at lennartwittkuhn.com/ddlitlab-presentation\n📦 Software: Reproducible slides built with Quarto and deployed to GitHub Pages using GitHub Actions\n\n\n Source: Source code is publicly available on GitHub at github.com/lnnrtwttkhn/ddlitlab-presentation\n🙏 Contact: I am happy for any feedback or suggestions via email or GitHub issues. Thank you!"
-  },
-  {
-    "objectID": "2023-05-11_quest-center-berlin.html#why-we-need-version-control",
-    "href": "2023-05-11_quest-center-berlin.html#why-we-need-version-control",
-    "title": "A full-semester course on “Version control of code and data using Git and DataLad”",
-    "section": "Why we need version control …",
-    "text": "Why we need version control …\n\n\n\n… for code (text files) \n\n\n\n\n\n© Jorge Cham (phdcomics.com)\n\n\n\n\n\n… for data (binary files) \n\n\n\n\n\nVersion control is relevant for anyone who wants to track the evolution of digital objects"
-  },
-  {
-    "objectID": "2023-05-11_quest-center-berlin.html#what-is-version-control",
-    "href": "2023-05-11_quest-center-berlin.html#what-is-version-control",
-    "title": "A full-semester course on “Version control of code and data using Git and DataLad”",
-    "section": "What is version control?",
-    "text": "What is version control?\n\n“Version control is a systematic approach to record changes made in a […] set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions later […]” (Turing Way)\n\n\n\n\n keep track of changes in a directory (a “repository”)\n take snapshots (“commits”) of your repo at any time\n know the history: what was changed when by whom\n compare commits and go back to any previous state\n work on parallel “branches” & flexibly “merge” them\n\n\n\nby Scriberia for The Turing Way community (CC-BY 4.0)\n\n\n\n\n\n “push” your repo to a “remote” location & share it\n  share repos on platforms like GitHub or GitLab\n work together on the same files at the same time\n others can read, copy, edit and suggest changes\n make your repo public and openly share your work\n\n\n\nby Scriberia for The Turing Way community (CC-BY 4.0)"
-  },
-  {
-    "objectID": "2023-05-11_quest-center-berlin.html#what-are-git-and-datalad",
-    "href": "2023-05-11_quest-center-berlin.html#what-are-git-and-datalad",
-    "title": "A full-semester course on “Version control of code and data using Git and DataLad”",
-    "section": "What are git and DataLad?",
-    "text": "What are git and DataLad?\n\n\n\n\n\n\ngit-scm.com\n\n\n\nmost popular version control system\nfree, open-source command-line tool\ngraphical user interfaces exist, e.g., GitKraken\nstandard tool for most (all?) software developers\n100 million GitHub users 1\n\n\n\n\n\n\n\ndatalad.org\n\n\n\n“git for (large) data”\nfree, open-source command-line tool\nbuilds on top of git and git-annex\nallows to version control arbitrarily large datasets 2\ngraphical user interface exists: DataLad Gooey\n\n\n\n\n\n\nVersion control is relevant for anyone who wants to track the evolution of digital objects"
-  },
-  {
-    "objectID": "2023-05-11_quest-center-berlin.html#course-details",
-    "href": "2023-05-11_quest-center-berlin.html#course-details",
-    "title": "A full-semester course on “Version control of code and data using Git and DataLad”",
-    "section": "Course details",
-    "text": "Course details\n\n\n\n\nOverview\n Full-semester seminar (~ 12 sessions of 90 mins)\n Winter semester 2023/24 (October to January)\n University of Hamburg (virtual option TBD)\n MSc and PhD students (research focus)\n Psychology and Cognitive Neuroscience\n\n\n\nMilestones\n Project received funding!\n Project website online!\n Course website online!\n\n Next up: Prepare course!\n\n\n\n\nImplementation and Tools\n Impulse lectures & live demonstrations\n Code-along & exercises (individual and group)\n Discussions on reproducibility, open code & data\n Fixed computational environments on JupyterHub\n Focus on command-line interaction\n Alternative use via Graphical User Interfaces\n Quizzes & continuous evaluation (in R Shiny)\n Reuse quiz & evaluation data as example datasets\n Follow-up research projects in summer semester\n Support by research and teaching assistants\n Materials shared as Open Educational Resources\n Integration with GRN, Carpentries Incubator, etc.?\n\n\n\n\n\nBuilding an educational resource\nExtend course format to other experience levels (e.g., PhD students) and topics"
-  },
-  {
-    "objectID": "2023-05-11_quest-center-berlin.html#local-grn-node-in-hamburg",
-    "href": "2023-05-11_quest-center-berlin.html#local-grn-node-in-hamburg",
-    "title": "A full-semester course on “Version control of code and data using Git and DataLad”",
-    "section": "Local GRN node in Hamburg?",
-    "text": "Local GRN node in Hamburg?\n\nfrom reproducibilitynetwork.de/members"
-  },
-  {
-    "objectID": "2023-05-11_quest-center-berlin.html#thank-you",
-    "href": "2023-05-11_quest-center-berlin.html#thank-you",
-    "title": "A full-semester course on “Version control of code and data using Git and DataLad”",
-    "section": "Thank you!",
-    "text": "Thank you!\n\n\nFunding & Support\n\n\n\nDigital and Data Literacy in Teaching Lab (DDLitLab), an initiative by the ISA-Zentrum at University of Hamburg\n\n\n\n\n\nStiftung Innovation in der Hochschullehre\n\n\n\nPeople\n\n\n\n\n\nProf. Dr. Nicolas Schuck(UHH & MPIB)\n\n\n\n\n\n\nCarolin Scharfenberg(UHH DDLitLab)\n\n\n\n\nContact\n lennart.wittkuhn@uni-hamburg.de\n lennartwittkuhn.com\n Twitter  Mastodon  GitHub  LinkedIn\n\n\n\n\nVersion control of code and data using Git and DataLad"
-  },
-  {
-    "objectID": "2023-05-11_quest-center-berlin.html#footnotes",
-    "href": "2023-05-11_quest-center-berlin.html#footnotes",
-    "title": "A full-semester course on “Version control of code and data using Git and DataLad”",
     "section": "Footnotes",
     "text": "Footnotes\n\n\n(Source: Wikipedia)\nsee DataLad dataset of 80TB / 15 million files from the Human Connectome Project (see details)"
   }
