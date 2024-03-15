@@ -26,14 +26,28 @@ execute:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7926691.svg)](https://doi.org/10.5281/zenodo.7926691)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-## PuG 2024
+**Legend:**
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+{{< fa calendar-check >}} = Event; {{< fa map-pin >}} = Venue; {{< fa clock >}} = Date; {{< fa file-image >}} = Type; {{< fa chalkboard-user >}} = Presenters
 
-{{< fa calendar-check >}} **Event:** [49th Annual Conference "Psychology and Brain"](https://pug2024.de/index-en.html) of University of Hamburg, in cooperation with the [Division of Biological Psychology and Neuropsychology of the German Psychological Society (DGPs)](https://www.dgps.de/fachgruppen/fgbi/) and the [German Society for Psychophysiology and its Application (DPGA)](https://www.dgpa.de) </br>
-{{< fa map-pin >}} **Venue:** [49th Annual Conference "Psychology and Brain"](https://pug2024.de/index-en.html) at the Bürgerhaus Wilhemsburg, Hamburg </br>
-{{< fa clock >}} **Date:** 2024-05-29 - 2024-06.01 </br>
-{{< fa chalkboard-user >}} **Presenters:** [Dr. Lennart Wittkuhn](https://www.lennartwittkuhn.com/) & Konrad Pagenstedt
+## Psychologie und Gehirn (PuG) 2024
+
+:::: {.columns}
+::: {.column width="5%"}
+{{< fa calendar-check >}}<br>
+{{< fa map-pin >}}<br>
+{{< fa clock >}}<br>
+{{< fa file-image >}}<br>
+{{< fa chalkboard-user >}}<br>
+:::
+::: {.column width="85%"}
+[49th Annual Conference "Psychology and Brain"](https://pug2024.de/index-en.html) at University of Hamburg, Germany<br>
+Bürgerhaus Wilhelmsburg, Hamburg, Germany<br>
+2024-05-29 to 2024-06-01<br>
+Poster<br>
+[Dr. Lennart Wittkuhn](https://www.lennartwittkuhn.com/) & Konrad Pagenstedt<br>
+:::
+::::
 
 ### Abstract
 
@@ -49,6 +63,8 @@ Finally, we are committed to continually improving our online resources as open-
 Together, our open educational resources contribute to training researchers essential skills in tracking, organizing and sharing their work, thereby promoting more open, reproducible and effective science. 
 
 ### Poster
+
+Coming soon.
 
 ## MPRG NeuroCode
 
