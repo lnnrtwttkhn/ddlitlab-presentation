@@ -25,6 +25,46 @@ execute:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7926691.svg)](https://doi.org/10.5281/zenodo.7926691)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
+**Legend:**
+
+{{< fa calendar-check >}} = Event; {{< fa map-pin >}} = Venue; {{< fa clock >}} = Date; {{< fa file-image >}} = Type; {{< fa chalkboard-user >}} = Presenters
+
+## Psychologie und Gehirn (PuG) 2024
+
+:::: {.columns}
+::: {.column width="5%"}
+{{< fa calendar-check >}}<br>
+{{< fa map-pin >}}<br>
+{{< fa clock >}}<br>
+{{< fa file-image >}}<br>
+{{< fa chalkboard-user >}}<br>
+:::
+::: {.column width="85%"}
+[49th Annual Conference "Psychology and Brain"](https://pug2024.de/index-en.html) at University of Hamburg, Germany<br>
+Bürgerhaus Wilhelmsburg, Hamburg, Germany<br>
+2024-05-29 to 2024-06-01<br>
+Poster<br>
+[Dr. Lennart Wittkuhn](https://www.lennartwittkuhn.com/) & Konrad Pagenstedt<br>
+:::
+::::
+
+### Abstract
+
+In this age of computational and data-driven science, systematic tracking of the evolution of digital objects like code and data is essential for reproducible research and effective collaboration, crucially addressing the reproducibility crisis prevalent in many research fields, including Psychology.
+Still, chaotic workflows are pervasive in science, reflecting a lack of training in tools and practices from software engineering and scientific computing that provide established solutions for collaborative digital work.
+Addressing these challenges, we introduced the full-semester course "Version Control of Code and Data: An introduction to Git and DataLad for psychological research", in the Psychology M.Sc. program at University of Hamburg.
+At the heart of this course is the "Version Control Book", a dynamic online learning resource that covers essential concepts of version control in scientific settings.
+Complementing this resource, we created quizzes and exercises, and shared all materials on GitHub as extendable, open educational resources.
+In the first iteration of the course, M.Sc. and Ph.D. students effectively used the online book and successfully engaged in the hands-on exercises and quizzes.
+Feedback from students was overwhelmingly positive, resulting in four nominations for the university's teaching award, underscoring an enriching learning experience. 
+As a result, the course is scheduled to be repeated in future semesters and adapted to other learning formats.
+Finally, we are committed to continually improving our online resources as open-source projects.
+Together, our open educational resources contribute to training researchers essential skills in tracking, organizing and sharing their work, thereby promoting more open, reproducible and effective science. 
+
+### Poster
+
+Coming soon.
+
 ## Digital and Data Literacy in Teaching Lab (DDLitLab)
 
 [![DOI](https://www.fdr.uni-hamburg.de/badge/DOI/10.25592/uhhfdm.14162.svg)](https://doi.org/10.25592/uhhfdm.14162)
