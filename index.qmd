@@ -1,9 +1,9 @@
 ---
-title: 'Talks about the full-semester course on "Version control of code and data using Git and DataLad"'
+title: 'Presentations about the full-semester course on "Version control of code and data using Git and DataLad"'
 date-modified: today
 abstract: |
   Welcome!
-  This website hosts slides and other resources for talks about the full-semester course on "Version control of code and data using Git and DataLad".
+  This website hosts slides and other resources for presentations about the full-semester course on "Version control of code and data using Git and DataLad".
   You can find the GitHub repository with all the source code [here](https://github.com/lnnrtwttkhn/ddlitlab-presentation).
   All contents are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0) license (for details, see [here](https://github.com/lnnrtwttkhn/talk-rdm/blob/master/LICENSE) and [here](https://creativecommons.org/licenses/by-sa/4.0/)), except where noted otherwise.
   If you notice any issues or have suggestions for improvement, we would be glad to hear from you!
