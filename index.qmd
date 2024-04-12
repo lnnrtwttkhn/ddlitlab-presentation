@@ -29,6 +29,48 @@ execute:
 
 {{< fa calendar-check >}} = Event; {{< fa map-pin >}} = Venue; {{< fa clock >}} = Date; {{< fa file-image >}} = Type; {{< fa chalkboard-user >}} = Presenters
 
+## TURN 2024
+
+Scientists at universities spend a lot of time and effort on the development of teaching materials.
+However, these valuable educational resources are only rarely shared, and even then hard to find or reuse.
+Sharing teaching materials as open educational resources that can reused and extended does not only promise to save limited time but also ultimately improve the quality of higher education.
+The FAIR principles, well known in the context of research data management, provide guidelines how to make research outputs, Findable, Accessible, Interoperable and Reusable.
+Importantly, the FAIR principles can be also applied to educational resources, but concrete approaches  on how to implement them practically are scarce.
+Beyond the FAIR principles, a technical framework is needed that allows distributed and collaborative development of teaching materials in a way that ensures transparency, provenance and reproducibility.
+
+Here, we present an approach to FAIR and reproducible development of teaching materials using the open-source software tools Quarto and Git.
+Quarto is a free and open-source scientific and technical publishing system developed by the open source data science company Posit (formerly know as RStudio).
+Quarto allows to create and publish reproducible, production quality articles, presentations, dashboards, websites, blogs, and books in various formats like HTML, PDF, MS Word and ePub.
+Authors can use Jupyter notebooks or write plain text Markdown in their favorite editor.
+As a literate programming tool, Quarto can integrate prose with widely used programming languages like Python, R, Julia, and Observable.
+In the context of teaching materials, Quarto may be used to generate course websites, online textbooks and presentations, all within one framework.
+Git is a free and open-source distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers who are collaboratively developing source code during software development.
+Git is arguably the most popular version control system.
+"Version control is an approach to record changes made in a file or set of files over time so that you and your collaborators can track their history, review any changes, and revert or go back to earlier versions" [@turingway2022].
+Version control allows to keep track of changes in a directory (called a "repository").
+Users can take snapshots (called "commits") of the repository at any time.
+This allows to know the history of changes and understand what was changed when and by whom.
+Further, users can compare commits and go back to any previous state of their repository.
+In addition, Git allows to work on parallel versions (called "branches") and flexibly integrate (or "merge") them.
+Repository hosting services like GitHub, GitLab, BitBucket or Codeberg extend the benefits of version control by aspects of collaboration.
+Repositories can be uploaded (or "pushed") to an online repository hosting service (called a "remote") and shared with others.
+Repositories can be shared privately with a group of trusted collaborators but also made publicly available to anyone.
+This allows to work on the same files at the same time.
+Others can read, copy, edit and suggest changes.
+By making the repository public, work can be shared openly and transparently.
+Git is free to use and [open-source](https://github.com/git).
+It is a command-line tool and available for all major operating systems (Windows, macOS and Linux).
+In addition, several graphical user interfaces exist and Git is integrated into many integrated development environments (IDEs) like RStudio and Visual Studio Code.
+Git can be considered a standard tool in the software industry and its popularity is evidenced by the 100 million of the popular repository hosting service GitHub ^[(Source: [Wikipedia](https://en.wikipedia.org/wiki/GitHub))].
+
+We exemplify the implementation of this approach in the context of a full-semester course on „Version Control of Code and Data“ taught in the MSc Psychology at University of Hamburg.
+The educational materials mainly comprise a course website, an online textbook as well as online surveys and exercises, implemented Quarto and collaboratively developed using Git and GitHub.
+All resources were developed openly and transparently with the full revision history available on GitHub.
+Major releases are annotated with metadata and archived in established repositories like Zenodo.
+
+Together, this approach allows to develop and share FAIR and reproducible open educational resources using free and open-source software that is available for all major operating systems and readily integrated with existing institutional infrastructure.
+Finally, the implications for education curricula, participatory teaching and are discussed.
+
 ## Psychologie und Gehirn (PuG) 2024
 
 :::: {.columns}
