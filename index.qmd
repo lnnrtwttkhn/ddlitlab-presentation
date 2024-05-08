@@ -61,6 +61,21 @@ As a result, the course is scheduled to be repeated in future semesters and adap
 Finally, we are committed to continually improving our online resources as open-source projects.
 Together, our open educational resources contribute to training researchers essential skills in tracking, organizing and sharing their work, thereby promoting more open, reproducible and effective science. 
 
+### Justification for IGOR Prize
+
+::: {.callout-note collapse="true" title="More information about the IGOR Prize"}
+
+The Interest Group Open and Reproducible Science in the Biological Psychology Section of the German Psychological Society (IGOR) awards the annual Open and Reproducible Science Prize.
+
+Papers (poster and symposium presentations) presented at PuG 2024 that exemplify the application of open and reproducible science practices or represent metascience on open and reproducible science topics are eligible. The abstract should include statements on the open and reproducible science aspects of the published or unpublished work (this includes, but is not limited to, pre-registration, open data and materials, reproducible analyses, and metascience work).
+
+When submitting an entry, it must be stated that it is to be considered for the IGOR Prize. Applicants will then be contacted separately by email and asked to write a short letter of justification (approx. 100 words).
+
+Based on this information (abstract, justification), the jury will select the most promising entries. Two jury members will look at each shortlisted presentation and evaluate it according to various aspects related to the promotion of openness and reproducibility.
+
+The contribution that best meets the objectives of IGOR will be honoured at PuG 2024 with a certificate and a cash prize of €500.
+:::
+
 ### Poster
 
 Coming soon.
