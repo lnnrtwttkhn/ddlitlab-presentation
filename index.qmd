@@ -82,6 +82,15 @@ To change this, we created a curriculum on Git, including a 200-page online guid
 30 MSc/PhD Psychology students were successfully trained already.
 All materials, openly developed on GitHub, are freely available for reuse and extension, thereby also showcasing an approach to the FAIR and reproducible development of open educational resources.
 
+### IGOR Quiz Question
+
+Why are Git and GitHub great tools for educators, when they want to develop FAIR and reproducible teaching materials?
+
+1. They let them sell their teaching materials online (fast).
+1. They keep their teaching materials completely private.
+1. They allow transparent and collaborative development of teaching materials.
+1. They limit access to teaching materials to certain student.
+
 ### Poster
 
 Coming soon.
