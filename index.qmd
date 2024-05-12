@@ -76,10 +76,10 @@ Based on this information (abstract, justification), the jury will select the mo
 The contribution that best meets the objectives of IGOR will be honoured at PuG 2024 with a certificate and a cash prize of €500.
 :::
 
-To address the reproducibility crisis, scientists need to adopt tools that enable reproducible workflows.
-Git, a standard tool in software engineering, enables traceable collaborative development of digital research outputs, like code and data, but (aspiring) scientists are still not widely trained to use it.
-To change this, we created a course curriculum on Git, including a 200-page online guide, websites with slides, exercises, and quizzes.
-30 MSc Psychology students were trained already.
+Addressing the reproducibility crisis, scientists benefit from adopting tools that enable professional digital workflows.
+Git, a standard tool in software engineering, enables traceable collaborative development of research outputs, like code and data, but (aspiring) scientists are still not widely trained to use it.
+To change this, we created a curriculum on Git, including a 200-page online guide, websites with slides, exercises, and quizzes.
+30 MSc/PhD Psychology students were successfully trained already.
 All materials, openly developed on GitHub, are freely available for reuse and extension, thereby also showcasing an approach to the FAIR and reproducible development of open educational resources.
 
 ### Poster
