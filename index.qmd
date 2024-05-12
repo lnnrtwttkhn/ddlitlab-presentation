@@ -29,6 +29,45 @@ execute:
 
 {{< fa calendar-check >}} = Event; {{< fa map-pin >}} = Venue; {{< fa clock >}} = Date; {{< fa file-image >}} = Type; {{< fa chalkboard-user >}} = Presenters
 
+## TURN 2024
+
+**Title:** FAIR and reproducible development of open educational resources using Quarto and Git
+
+### Abstract
+
+University staff spend much time and effort developing educational materials that are rarely shared or easily reusable.
+Adopting the FAIR principles (Findability, Accessibility, Interoperability, Reusability), known for improving research data management, can similarly enhance educational resources, but practical implementations of these principles are few.
+In addition, a technical framework for transparent and collaborative development of teaching materials is needed.
+
+We propose an approach using the open-source tools Quarto and Git, which facilitate the FAIR and reproducible development of educational content.
+Quarto is a publishing system that supports diverse outputs like articles, websites, and presentations from sources such as Jupyter notebooks or Markdown documents.
+It integrates narrative and code from languages like Python, R, and Julia, ideal for dynamic educational materials such as course websites and online textbooks.
+Git, a widely-used version control system, tracks file changes, helping users manage revisions and maintain a history of modifications.
+Online platforms like GitHub and GitLab allow educators to share materials for extension or reuse and foster effective collaboration.
+
+We exemplify this approach in a full-semester MSc Psychology course at the University of Hamburg, using Quarto and Git to develop and manage a course website, an online textbook, as well as interactive exercises and surveys.
+This example demonstrates how these tools can produce transparent and reproducible educational content adhering to FAIR principles that are readily adaptable and reusable.
+Major releases of the materials are tagged, annotated with metadata, and archived in repositories like Zenodo, ensuring long-term accessibility.
+Together, this approach opens new avenues for participatory and adaptable teaching methods.
+
+### Description
+
+University staff often develop educational materials that are not widely shared or reusable.
+Adopting the FAIR principles (Findability, Accessibility, Interoperability, Reusability) and a framework for collaborative development could improve this situation, but practical implementations are few.
+
+We propose using the open-source tools Quarto and Git for creating and managing educational content following FAIR standards.
+Quarto allows publication of various formats such as articles, websites and presentations, integrating text and code from multiple programming languages.
+Git tracks changes and maintains history, facilitating revisions.
+Platforms like GitHub and GitLab enable sharing and collaborative development.
+
+In a semester-long MSc Psychology course at the University of Hamburg, we used these tools to develop a course website, an online textbook, and interactive materials.
+This practical application demonstrates that such tools can produce transparent and reproducible educational resources.
+Major releases are archived in established repositories like Zenodo, promoting long-term availability.
+
+### Keywords
+
+Open Educational Resources, FAIR, Reproducibility, Version Control, Open Science
+
 ## Psychologie und Gehirn (PuG) 2024
 
 :::: {.columns}
