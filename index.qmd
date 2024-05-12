@@ -100,6 +100,36 @@ As a result, the course is scheduled to be repeated in future semesters and adap
 Finally, we are committed to continually improving our online resources as open-source projects.
 Together, our open educational resources contribute to training researchers essential skills in tracking, organizing and sharing their work, thereby promoting more open, reproducible and effective science. 
 
+### Justification for IGOR Prize
+
+::: {.callout-note collapse="true" title="More information about the IGOR Prize"}
+
+The Interest Group Open and Reproducible Science in the Biological Psychology Section of the German Psychological Society (IGOR) awards the annual Open and Reproducible Science Prize.
+
+Papers (poster and symposium presentations) presented at PuG 2024 that exemplify the application of open and reproducible science practices or represent metascience on open and reproducible science topics are eligible. The abstract should include statements on the open and reproducible science aspects of the published or unpublished work (this includes, but is not limited to, pre-registration, open data and materials, reproducible analyses, and metascience work).
+
+When submitting an entry, it must be stated that it is to be considered for the IGOR Prize. Applicants will then be contacted separately by email and asked to write a short letter of justification (approx. 100 words).
+
+Based on this information (abstract, justification), the jury will select the most promising entries. Two jury members will look at each shortlisted presentation and evaluate it according to various aspects related to the promotion of openness and reproducibility.
+
+The contribution that best meets the objectives of IGOR will be honoured at PuG 2024 with a certificate and a cash prize of €500.
+:::
+
+Addressing the reproducibility crisis, scientists benefit from adopting tools that enable professional digital workflows.
+Git, a standard tool in software engineering, enables traceable collaborative development of research outputs, like code and data, but (aspiring) scientists are still not widely trained to use it.
+To change this, we created a curriculum on Git, including a 200-page online guide, websites with slides, exercises, and quizzes.
+30 MSc/PhD Psychology students were successfully trained already.
+All materials, openly developed on GitHub, are freely available for reuse and extension, thereby also showcasing an approach to the FAIR and reproducible development of open educational resources.
+
+### IGOR Quiz Question
+
+Why are Git and GitHub great tools for educators, when they want to develop FAIR and reproducible teaching materials?
+
+1. They let them sell their teaching materials online (fast).
+1. They keep their teaching materials completely private.
+1. They allow transparent and collaborative development of teaching materials.
+1. They limit access to teaching materials to certain student.
+
 ### Poster
 
 Coming soon.
