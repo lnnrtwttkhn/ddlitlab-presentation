@@ -70,6 +70,9 @@ Open Educational Resources, FAIR, Reproducibility, Version Control, Open Science
 
 ## Psychologie und Gehirn (PuG) 2024
 
+[![DOI](https://www.fdr.uni-hamburg.de/badge/DOI/10.25592/uhhfdm.14322.svg)](https://doi.org/10.25592/uhhfdm.14322)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+
 :::: {.columns}
 ::: {.column width="5%"}
 {{< fa calendar-check >}}<br>
@@ -81,7 +84,7 @@ Open Educational Resources, FAIR, Reproducibility, Version Control, Open Science
 ::: {.column width="85%"}
 [49th Annual Conference "Psychology and Brain"](https://pug2024.de/index-en.html) at University of Hamburg, Germany<br>
 Bürgerhaus Wilhelmsburg, Hamburg, Germany<br>
-2024-05-29 to 2024-06-01<br>
+2024-05-31<br>
 Poster<br>
 [Dr. Lennart Wittkuhn](https://www.lennartwittkuhn.com/) & Konrad Pagenstedt<br>
 :::
@@ -99,6 +102,12 @@ Feedback from students was overwhelmingly positive, resulting in four nomination
 As a result, the course is scheduled to be repeated in future semesters and adapted to other learning formats.
 Finally, we are committed to continually improving our online resources as open-source projects.
 Together, our open educational resources contribute to training researchers essential skills in tracking, organizing and sharing their work, thereby promoting more open, reproducible and effective science. 
+
+### Poster
+
+```{=html}
+<iframe width="100%" height="1130" src="static/images/2024-05-31_ddlitlab-pug-poster.pdf"></iframe>
+```
 
 ### Justification for IGOR Prize
 
@@ -129,10 +138,6 @@ Why are Git and GitHub great tools for educators, when they want to develop FAIR
 1. They keep their teaching materials completely private.
 1. They allow transparent and collaborative development of teaching materials.
 1. They limit access to teaching materials to certain student.
-
-### Poster
-
-Coming soon.
 
 ## Digital and Data Literacy in Teaching Lab (DDLitLab)
 
